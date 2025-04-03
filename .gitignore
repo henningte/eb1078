@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.pdf
+*.tex
+*.cnf
+*.aux
+*.log
+renv
+data/derived_data/pmird_prepared_data
+d8_citations.bib
+_targets

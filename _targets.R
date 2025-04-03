@@ -88,6 +88,15 @@ list(
     pmirdp_data_overview_2,
     command = pmirdp_make_data_overview_2(x = pmirdp_data_overview)
   ),
+  tar_target(
+    pmirdp_references_file,
+    command = "references.bib",
+    format = "file"
+  ),
+  tar_render(
+    pmirdp_supporting_info,
+    path = "pmird-supporting-info.Rmd"
+  ),
   tar_render(
     pmirdp_paper,
     path = "pmird-paper.Rmd"

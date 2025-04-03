@@ -1,0 +1,212 @@
+---
+# Data Descriptor Title (110 character maximum, inc. spaces)
+title: "Supporting information to: `r rmarkdown::yaml_front_matter('pmird-paper.Rmd')$title`"
+# subtitle: Do you have a subtitle? If so, write it here
+# titlerunning: Short form of title (if too long for head)
+# authorrunning: Short form of author list if too long for running head
+#authors: "`r rmarkdown::yaml_front_matter('pmird-paper.Rmd')$authors`"
+#affiliations: "`r rmarkdown::yaml_front_matter('pmird-paper.Rmd')$affiliations`"
+bibliography: '`r targets::tar_read(pmirdp_references_file)`'
+csl: nature.csl
+output: 
+  bookdown::pdf_document2:
+    toc: true
+    #latex_engine: xelatex
+    keep_tex: true
+    number_sections: false
+fontsize: 12pt
+link-citations: true
+header-includes:
+  - \usepackage{float}
+  - \usepackage{booktabs}
+  - \usepackage{multirow}
+  - \usepackage[modulo]{lineno}
+  - \linenumbers
+  - \usepackage{xr} \externaldocument[main-]{pmird-paper}
+---
+
+\renewcommand{\thefigure}{S\arabic{figure}} 
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, eval = TRUE, fig.align='center')
+```
+
+```{r packages}
+library(knitr)
+library(kableExtra)
+library(pmird)
+
+options(tinytex.clean = FALSE) #---note: to not remove aux files (needed for correct cross-referencing between documents)
+```
+
+
+# Attributes in the 'pmird' database
+
+(ref:tab-pmirdp-sup-attributes-caption) Definition of all attributes in the 'pmird' database.
+
+```{r pmirdp-sup-attributes, tab.cap='(ref:tab-pmirdp-sup-attributes-caption)'}
+pmird_attributes <-
+  pmird::attributes %>%
+  dplyr::select(attribute_name, attribute_definition, unit) %>%
+  dplyr::mutate(
+    dplyr::across(
+      dplyr::everything(),
+      function(x) {
+        x %>%
+          stringr::str_replace_all(pattern = "_", replacement = "\\\\_\\\\-") %>%
+          stringr::str_replace_all(pattern = "<sup>-3</sup>", replacement = "$^{-3}$") %>%
+          stringr::str_replace_all(pattern = "<sup>-2</sup>", replacement = "$^{-2}$") %>%
+          stringr::str_replace_all(pattern = "<sup>-1</sup>", replacement = "$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "<sup>2\\+</sup>", replacement = "$^{2+}$") %>%
+          stringr::str_replace_all(pattern = "<sup>3\\+</sup>", replacement = "$^{3+}$") %>%
+          stringr::str_replace_all(pattern = "<sup>3</sup>", replacement = "$^{3}$") %>%
+          stringr::str_replace_all(pattern = "<sup>13</sup>", replacement = "$^{13}$") %>%
+          stringr::str_replace_all(pattern = "<sup>15</sup>", replacement = "$^{15}$") %>%
+          stringr::str_replace_all(pattern = "<sup>18</sup>", replacement = "$^{18}$") %>%
+          stringr::str_replace_all(pattern = "<sup>2</sup>", replacement = "$^{2}$") %>%
+          stringr::str_replace_all(pattern = "<sup>14</sup>", replacement = "$^{14}$") %>%
+          stringr::str_replace_all(pattern = "<sup>210</sup>", replacement = "$^{210}$") %>%
+          stringr::str_replace_all(pattern = "<sup>137</sup>", replacement = "$^{137}$") %>%
+          stringr::str_replace_all(pattern = "<sub>s</sub>", replacement = "$_\\\\text{s}$") %>%
+          stringr::str_replace_all(pattern = "<sub>3</sub>", replacement = "$_3$") %>%
+          stringr::str_replace_all(pattern = "\\^3", replacement = "$^{3}$") %>%
+          stringr::str_replace_all(pattern = "\\^3", replacement = "$^{3}$") %>%
+          stringr::str_replace_all(pattern = "%", replacement = "\\\\%") %>%
+          stringr::str_replace_all(pattern = "(&mu;|ﾵ)", replacement = "$\\\\mu$") %>%
+          stringr::str_replace_all(pattern = "ug/g", replacement = "$\\\\mu$g/g") %>%
+          stringr::str_replace_all(pattern = "umol/g", replacement = "$\\\\mu$mol/g") %>%
+          stringr::str_replace_all(pattern = "g/g", replacement = "g g$^{-1}$")  %>%
+          stringr::str_replace_all(pattern = "mol/g", replacement = "mol g$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "g/cm$", replacement = "g cm$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "1/g/min", replacement = "g$^{-1}$ min$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "Bq/kg", replacement = "Bq kg$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "kJ/mol", replacement = "kJ mol$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "J/K/mol", replacement = "J K$^{-1}$ mol$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "g/L", replacement = "g L$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "kPa/kPa", replacement = "kPa kPa$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "cm/h", replacement = "cm h$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "L/L", replacement = "L L$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "cm\\$\\^\\{3\\}\\$/cm\\$\\^\\{3\\}\\$", replacement = "cm$^{3}$ cm$^{-3}$") %>%
+          stringr::str_replace_all(pattern = "105 degree C", replacement = "105$^\\\\circ$C") %>%
+          stringr::str_replace_all(pattern = "°", replacement = "$^\\\\circ$") %>%
+          stringr::str_replace_all(pattern = "1/cm", replacement = "cm$^{-1}$") %>%
+          stringr::str_replace_all(pattern = "<sup>226</sup>", replacement = "$^{226}$")
+      }
+    ),
+    unit = 
+      dplyr::case_when(
+        is.na(unit) ~ "-",
+        TRUE ~ unit
+      )
+  )
+
+pmird_attributes %>%
+  kableExtra::kable(
+    format = "latex",
+    booktabs = TRUE, 
+    longtable = TRUE,
+    escape = FALSE, 
+    col.names = c("Attribute name", "Description", "Unit")
+  ) %>%
+  kableExtra::column_spec(column = match("attribute_name", colnames(pmird_attributes)), width = "7em") %>%
+  kableExtra::column_spec(column = match(c("attribute_definition"), colnames(pmird_attributes)), width = "25em") %>%
+  kableExtra::kable_styling(
+    latex_options = c("repeat_header", "hold_position"),
+    repeat_header_method = "replace",
+    repeat_header_continued = "\\textit{(Continued on Next Page...)}")
+```
+
+\clearpage
+
+
+
+# Example of the method description for dataset 8
+
+(ref:tab-pmirdp-sup-example-methods-d8-caption) Method and method steps description for dataset 8 in the 'pmird' database.
+
+```{r pmirdp-sup-example-methods-d8, tab.cap='(ref:tab-pmirdp-sup-example-methods-d8-caption)'}
+# connect to database
+con <-
+  RMariaDB::dbConnect(
+    drv = RMariaDB::MariaDB(),
+    dbname = "pmird",
+    default.file = "~/my.cnf",
+    groups = "rs-dbi"
+  )
+
+dm_pmird <-
+  pmird::pm_get_dm(con, learn_keys = TRUE)
+
+# general dataset characteristics
+d_example_methods <-
+  dm_pmird %>%
+  dm::dm_zoom_to(datasets) %>%
+  dplyr::filter(id_dataset == 8) %>%
+  dm::left_join(methods, by = "id_method") %>%
+  dm::left_join(methods_to_method_steps, by = "id_method") %>%
+  dm::left_join(method_steps, by = "id_method_step") %>%
+  dm::pull_tbl() %>%
+  tibble::as_tibble() %>%
+  dplyr::select(id_method, sampling_description, id_method_step, description) %>%
+  dplyr::mutate(
+    sampling_description =
+      sampling_description %>%
+      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") %>%
+      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") %>%
+      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") %>%
+      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude"),
+    description =
+      description %>%
+      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") %>%
+      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") %>%
+      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") %>%
+      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude")
+  ) %>%
+  dplyr::select(-sampling_description)
+
+# disconnect
+RMariaDB::dbDisconnect(conn = con)
+
+d_example_methods %>%
+  dplyr::mutate(
+    description = 
+      description |> 
+      stringr::str_split(pattern = "\\n\\n")
+  ) |>
+  tidyr::unnest(description) |>
+  dplyr::mutate(
+    id_method =
+      dplyr::case_when(
+        ! duplicated(id_method_step) ~ as.character(id_method),
+        TRUE ~ ""
+      ),
+    id_method_step =
+      dplyr::case_when(
+        ! duplicated(id_method_step) ~ as.character(id_method_step),
+        TRUE ~ ""
+      )
+  ) |>
+  kableExtra::kable(
+    format = "latex",
+    booktabs = TRUE, 
+    longtable = TRUE,
+    escape = FALSE, 
+    col.names =c("id\\_method", "id\\_method\\_step", "description"), #, "sampling\\_description"
+  ) %>%
+  # kableExtra::column_spec(column = match("sampling_description", colnames(d_example_methods)), width = "35em") %>%
+  kableExtra::column_spec(column = match(c("description"), colnames(d_example_methods)), width = "25em") %>%
+  kableExtra::kable_styling(
+    latex_options = c("repeat_header", "hold_position"),
+    repeat_header_method = "replace",
+    repeat_header_continued = "\\textit{(Continued on Next Page...)}"
+  )
+```
+
+
+
+<!--# References {-}-->
+
+

@@ -7,6 +7,7 @@
 *.cnf
 *.aux
 *.log
+*.toc
 renv
 data/derived_data/pmird_prepared_data
 d8_citations.bib

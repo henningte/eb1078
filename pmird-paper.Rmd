@@ -196,21 +196,25 @@ keywords:
 #- PAC1
 #- superPAC
 
-bibliography: references.bib
+bibliography: '`r tar_read(pmirdp_references_file)`'
 #biblio-style: "naturemag-doi"
 # bibstyle options spbasic(default), spphys, spmpsci
 csl: nature.csl
 output: 
   bookdown::pdf_document2:
     toc: false
-    latex_engine: xelatex
+    #latex_engine: xelatex
     keep_tex: true
     number_sections: false
 fontsize: 12pt
 link-citations: true
 header-includes:
+  - \usepackage{float}
+  - \usepackage{booktabs}
+  - \usepackage{multirow}
   - \usepackage[modulo]{lineno}
   - \linenumbers
+  - \usepackage{xr} \externaldocument[si-]{pmird-supporting-info}
 ---
 
 ```{r setup, include=FALSE}
@@ -229,6 +233,7 @@ mir_quality_config <- pmird::mir_quality_config
 tar_load(pmirdp_data_overview)
 tar_load(pmirdp_data_overview_2)
 tar_load(pmirdp_mir_quality_results)
+tar_load(pmirdp_supporting_info)
 ```
 
 
@@ -322,7 +327,7 @@ For the remaining datasets, data were available in form of:
 
 ## Database schema {-}
 
-The 'pmird' database was set up as 'MariaDB' database. The database schema (figure \@ref(fig:out-db-schema)) was designed to store data and metadata in accordance with classes and elements defined by the Ecological Metadata Language (EML) [@Jones.2019] that were applicable and relevant to the data types and metadata available.<!-- The EML is a widely used metadata standard in ecological and environmental disciplines and is specifically designed for various ecological data \cite{Jones.2019}. Complying with the EML allows interoperability and thus facilitates access to the data \cite{Jones.2019}. In addition, the EML metadata types can serve as benchmarks with which data quality and reproducibility of data can be evaluated (See section [Technical validation]).--> General metadata that were considered relevant are geographic, temporal and taxonomic coverage, measurement instruments, and a description of individual methods and method steps [@Jones.2019]. In addition to the EML, discipline- and sample- or analytic-specific data reporting standards and recommendations were used to decide what data and metadata to include into the 'pmird' database: 
+The 'pmird' database was set up as 'MariaDB' database. The database schema (Fig. \@ref(fig:pmirdp-fig-plot-2)) was designed to store data and metadata in accordance with classes and elements defined by the Ecological Metadata Language (EML) [@Jones.2019] that were applicable and relevant to the data types and metadata available.<!-- The EML is a widely used metadata standard in ecological and environmental disciplines and is specifically designed for various ecological data \cite{Jones.2019}. Complying with the EML allows interoperability and thus facilitates access to the data \cite{Jones.2019}. In addition, the EML metadata types can serve as benchmarks with which data quality and reproducibility of data can be evaluated (See section [Technical validation]).--> General metadata that were considered relevant are geographic, temporal and taxonomic coverage, measurement instruments, and a description of individual methods and method steps [@Jones.2019]. In addition to the EML, discipline- and sample- or analytic-specific data reporting standards and recommendations were used to decide what data and metadata to include into the 'pmird' database: 
 
 1. Peat coring and general peat geochemical and physical analysis [@LeRoux.2010; @DeVleeschouwer.2010a; @Chambers.2011].
 
@@ -365,7 +370,7 @@ The 'pmird' database [@Teickner.2025c], including the externally stored MIRS dat
 
 ## Database schema {-}
 
-The schema of the 'pmird' database is shown in figure \@ref(fig:pmirdp-fig-plot-2). The database consists of a set of individual tables visualized by boxes which are linked via keys (unique identifiers) listed within the boxes. These links are presented as curves between the tables. A description of the attributes of all tables is presented in table \@ref(tab:out-db-attributes).  
+The schema of the 'pmird' database is shown in Fig. \@ref(fig:pmirdp-fig-plot-2). The database consists of a set of individual tables visualized by boxes which are linked via keys (unique identifiers) listed within the boxes. These links are presented as curves between the tables. A description of the attributes of all tables is presented in table \@ref(si-tab:pmirdp-sup-attributes).  
   
 The top-level table is `datasets`. It stores general information on a dataset, such as the dataset ID, title, year of publication, license, and reference publication. It also includes an identifier that links to the methods used to create the data.  
 
@@ -392,7 +397,7 @@ There are three exceptions to this setup consisting of the `samples` and `data` 
 
 Additional metadata on coverage, methods, instruments, involved persons are stored in separate tables. Each dataset has coverage information, including geographic coverage (a bounding box for the sampling locations and a description of the sampling locations; table `geographic_coverages`), temporal coverage (time point or range of the data collection; table `temporal_coverages`), and taxonomic coverage (taxa included in the dataset; table `taxonomic_coverages`). In cases where only a sampling year was known, the month and day were set to the first of January in that year.  
 
-Each dataset has a detailed method description in several rows in the table `methods`. For each dataset, the first row contains a description of the sample collection and --- if applicable, sampling design or experimental design. This row is linked to the table `method_steps` (via table `methods_to_method_steps`) where individual steps for all applied methods (if applicable) are described (e.g., drying, milling, MIRS measurements, measurements of elemental contents, macrofossil analysis, dating, etc.). An example of such a description is shown in table \@ref(tab:out-db-example-methods).  
+Each dataset has a detailed method description in several rows in the table `methods`. For each dataset, the first row contains a description of the sample collection and --- if applicable, sampling design or experimental design. This row is linked to the table `method_steps` (via table `methods_to_method_steps`) where individual steps for all applied methods (if applicable) are described (e.g., drying, milling, MIRS measurements, measurements of elemental contents, macrofossil analysis, dating, etc.). An example of such a description is shown in Tab. \@ref(si-tab:pmirdp-sup-example-methods-d8).  
   
 In addition, individual methods for each dataset are linked via table `attributes_to_datasets_to_methods` to the specific attributes they refer to (e.g., C content), such that there is no ambiguity over which methods were used to measure a specific attribute.  
   
@@ -446,7 +451,7 @@ For water vapor, the procedure to obtain an approximately pure water vapor spect
 
 5. Remaining negative intensity values were removed by dividing the intensity values such that the background at 2000 cm$^{-1}$ had an intensity of 1, then subtracting 1 from the intensity values, and finally setting all values $<0$ to 0. Remaining CO$_2$ artifacts and noise were removed by replacing the regions 600 to 1200<!--[---todo: check: In the script where bg spectra are defined, these ranges differ between Cary and Bruker. I need to check why and adjust this where necessary. A: I did this because for Bruker the CO2 correction was not fully successful and therefore there were other peaks. Since the water vapor spectrum has only few and small peaks in this region, I think this procedure is acceptable. Now, I used the same range across all spectra.]--> cm$^{-1}$ and 2200 to 3300 cm$^{-1}$ by straight lines.
 
-The resulting spectra (Fig. \@ref(fig:pmird-fig-validation-mirs-quality-reference-spectra)) share key characteristics of pure water vapor (https://webbook.nist.gov/cgi/inchi?ID=C7732185&Type=IR-SPEC&Index=0) and CO$_2$ spectra (https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Type=IR-SPEC&Index=1) as contained in the NIST/EPA Gas-Phase Infrared Database [@Wallace.1997a; @Linstrom.1997].
+The resulting spectra (Fig. \@ref(fig:pmirdp-fig-plot-5)) share key characteristics of pure water vapor (https://webbook.nist.gov/cgi/inchi?ID=C7732185&Type=IR-SPEC&Index=0) and CO$_2$ spectra (https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Type=IR-SPEC&Index=1) as contained in the NIST/EPA Gas-Phase Infrared Database [@Wallace.1997a; @Linstrom.1997].
 
 Such reference spectra could not be computed for every device used to measure MIRS in the 'pmird' database due to missing raw data. For this reason, we used reference spectra computed from data from different devices as reference spectra for other devices. Reference spectra could only be computed for absorbance spectra, but not ATR spectra. As a consequence, water vapor and CO$_2$ MIRS artifacts in ATR spectra are estimated using reference spectra measured in absorbance mode which introduces larger errors to our estimates in these cases. An overview on the assignment of reference spectra to devices is given in Tab. \@ref(tab:pmirdp-tab-reference-spectra-devices).
 

@@ -1,0 +1,122 @@
+---
+output: github_document
+bibliography: references.bib
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r, echo=FALSE, include=FALSE}
+library(magrittr)
+library(pmird)
+
+con <-
+  RMariaDB::dbConnect(
+    drv = RMariaDB::MariaDB(),
+    dbname = "pmird",
+    default.file = "~/my.cnf",
+    groups = "rs-dbi"
+  )
+
+# create the dm object
+dm_pmird <- pmird::pm_get_dm(con, learn_keys = TRUE)
+
+datasets <-
+  dm_pmird %>%
+  dm::dm_zoom_to("datasets") %>%
+  dm::pull_tbl() %>%
+  tibble::as_tibble()
+
+samples <-
+  dm_pmird %>%
+  dm::dm_zoom_to("samples") %>%
+  dm::pull_tbl() %>%
+  tibble::as_tibble()
+
+measurements <-
+  dm_pmird %>%
+  dm::dm_zoom_to("data") %>%
+  dm::pull_tbl() %>%
+  tibble::as_tibble()
+
+RMariaDB::dbDisconnect(con)
+```
+
+
+```{r, include=FALSE}
+# references
+references <-
+  datasets %>%
+  dplyr::mutate(
+    references =
+      {
+        purrr::map(reference_publication, function(x) {
+          tmp_file <- tempfile("temp_bib", tmpdir = tempdir(), fileext = ".bib")
+          x %>% writeLines(con = tmp_file)
+          #res <-
+          tmp_file %>%
+            bib2df::bib2df() %>%
+            dplyr::pull(BIBTEXKEY)
+          #res <-
+          #  paste0("\\cite{", paste(res, collapse = ", "), "}")
+        })
+      }
+  )
+
+
+
+```
+
+
+## Compendium of R code and data for "pmird: Peatland Mid Infrared Database 1.0.0"
+
+This repository contains the data and code for our manuscript:
+
+> Teickner, H., Agethen, S., Berger, S., Boelsen, R. I., Borken, W., Bragazza, L., Broder, T., De La Cruz, F. B., Diaconu, A.-C., Dise, N. B., Drollinger, S., Estop-Aragonés, C., Gałka, M., Martí, M., Glatzel, S., Groß, J., Harris, L., Heffernan, L., Hodgkins, S. B., … Knorr, K.-H. (unpublished). Peatland mid infrared database (1.0.0).
+
+
+### How to cite
+
+Please cite this compendium as:
+
+> Henning Teickner (`r format(Sys.Date(), "%Y")`). Compendium of R code and data for pmird: Peatland Mid Infrared Database 1.0.0”. Accessed `r format(Sys.Date(), "%d %b %Y")`. <https://github.com/henningte/eb1078>
+
+### Contents
+
+- `R`: directory with R functions for the manuscript.
+- `data/raw_data/mir_quality_results.rds`: RDS file with information on spectral quality of the spectra in the pmird database.
+- `pmird-paper.Rmd`: R Markdown script that represents the main manuscript file.
+- `pmird-supporting-info.Rmd`: R Markdown script that represents the supporting information for the manuscript.
+
+To reproduce the manuscripts, run the 'targets' workflow by executing `run.R` in above folders. Please note that you also have to set up the pmird database [@Teickner.2025c], as described in the Zenodo repository.
+
+
+### Licenses
+
+**Text and figures :**  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+
+**Code :** [GPL-3]().
+
+**Data :** [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse. See the sources section for licenses for data derived from external sources and how to give credit to the original author(s) and the source.
+
+
+### Sources
+
+Data in the pmird database were derived from the following sources: `r references %>% dplyr::pull(references) %>% unlist() %>% paste0("@", .) %>% paste(collapse = ", ")`.
+
+
+### Contributions
+
+We welcome contributions from everyone. Before you get started, please see our [contributor guidelines](CONTRIBUTING.md). Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+### Funding
+
+This study was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant no. KN 929/23-1 to Klaus-Holger Knorr and grant no. PE 1632/18-1 to Edzer Pebesma.
+
+### References

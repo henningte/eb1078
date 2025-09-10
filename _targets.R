@@ -27,7 +27,7 @@ crew_parallel_1 <-
 
 # Set target options:
 tar_option_set(
-  packages = c("tibble", "ggplot2"),
+  packages = c("tibble", "ggplot2", "ir"),
   format = "rds",
   controller = crew_controller_group(crew_sequential, crew_parallel_1)
 )

@@ -1,189 +1,189 @@
 ---
 # Data Descriptor Title (110 character maximum, inc. spaces)
-title: "pmird: Peatland Mid Infrared Spectra Database 1.0.0"
+title: "pmird: Peatland Mid Infrared Database 1.0.0"
 # subtitle: Do you have a subtitle? If so, write it here
 # titlerunning: Short form of title (if too long for head)
 # authorrunning: Short form of author list if too long for running head
 authors:
   - name: Henning Teickner
-    affil: '1,2,*'
+    affil: "1,2,*"
     email:
   - name: Svenja Agethen
-    affil: '3'
-    email:
-  - name: Regina Anzenhofer
-    affil: '3'
+    affil: "1"
     email:
   - name: Sina Berger
-    affil: '3'
+    affil: "3"
     email:
-  - name: Harald Biester
-    affil: '3'
+  - name: Rieke Inga Boelsen
+    affil: "4"
     email:
   - name: Werner Borken
-    affil: '3'
+    affil: "5"
     email:
   - name: Luca Bragazza
-    affil: '3'
+    affil: "6"
     email:
   - name: Tanja Broder
-    affil: '3'
-    email:
-  - name: Jill L. Bubier
-    affil: '3'
-    email:
-  - name: Simon Caporn
-    affil: '3'
-    email:
-  - name: Jeffrey P. Chanton
-    affil: '3'
+    affil: "1"
     email:
   - name: Florentino B. De La Cruz
-    affil: '3'
+    affil: "7"
     email:
   - name: Andrei-Cosmin Diaconu
-    affil: '3'
+    affil: "8"
     email:
-  - name: Nancy Dise
-    affil: '3'
+  - name: Nancy B. Dise
+    affil: "9"
     email:
   - name: Simon Drollinger
-    affil: '3'
+    affil: "10"
     email:
   - name: Cristian Estop-Aragonés
-    affil: '3'
+    affil: "1"
     email:
   - name: Mariusz Gałka
-    affil: '3'
+    affil: "11"
     email:
-  - name: Chuanyu Gao
-    affil: '3'
-    email:
-  - name: Gerhard Gebauer
-    affil: '3'
-    email:
-  - name: Magali Marti Genero
-    affil: '3'
+  - name: Magalí  Martí 
+    affil: "12,13"
     email:
   - name: Stephan Glatzel
-    affil: '3'
+    affil: "14"
     email:
-  - name: Marie Goebel
-    affil: '3'
+  - name: Jessica Groß
+    affil: "1"
     email:
   - name: Lorna Harris
-    affil: '3'
+    affil: "15"
     email:
   - name: Liam Heffernan
-    affil: '3'
+    affil: "16"
     email:
   - name: Suzanne B. Hodgkins
-    affil: '3'
+    affil: "17"
     email:
-  - name: Annkathrin Hömberg
-    affil: '3'
+  - name: Annkathrin Hömberg-Grandjean 
+    affil: "1"
     email:
   - name: Helga Hoppe
-    affil: '3'
-    email:
-  - name: Rachel Anne Kendall
-    affil: '3'
+    affil: "1"
     email:
   - name: Wolfgang Knierzinger
-    affil: '3'
-    email:
-  - name: Bernd Lennartz
-    affil: '3'
+    affil: "18"
     email:
   - name: Haojie Liu
-    affil: '3'
+    affil: "19"
     email:
   - name: Paul J.H. Mathijssen
-    affil: '3'
+    affil: "1,20"
     email:
   - name: Christopher Mollmann
-    affil: '3'
+    affil: "1"
     email:
-  - name: Tim R. Moore
-    affil: '3'
+  - name: Wiebke Schuster
+    affil: "21"
     email:
-  - name: Wiebke Münchberger
-    affil: '3'
+  - name: Lisa Närtker
+    affil: "1"
     email:
   - name: David Olefeldt
-    affil: '3'
+    affil: "22"
+    email:
+  - name: Verónica Pancotto
+    affil: "23,24"
     email:
   - name: Nicolas Pelletier
-    affil: '3'
+    affil: "25"
     email:
-  - name: Andrew J. Pinsonneault
-    affil: '3'
-    email:
-  - name: Leandra S. E. Praetzel
-    affil: '3'
+  - name: Hendrik Reuter
+    affil: "26"
     email:
   - name: Bjorn Robroek
-    affil: '3'
-    email:
-  - name: Nigel T. Roulet
-    affil: '3'
-    email:
-  - name: Cameron Roy
-    affil: '3'
-    email:
-  - name: Katja Elena Siegemund
-    affil: '3'
-    email:
-  - name: Bosse Svensson
-    affil: '3'
+    affil: "27,28"
     email:
   - name: Julie Talbot
-    affil: '3'
+    affil: "29"
     email:
   - name: Lauren Thompson
-    affil: '3'
-    email:
-  - name: Jos Verhoeven
-    affil: '3'
-    email:
-  - name: Sindy Wagner
-    affil: '3'
+    affil: "30,31"
     email:
   - name: Fred Worrall
-    affil: '3'
+    affil: "32"
     email:
   - name: Zhi-Guo Yu
-    affil: '3'
-    email:
-  - name: Katazyrna Zając
-    affil: '3'
-    email:
-  - name: Edzer Pebesma
-    affil: '2'
+    affil: "33"
     email:
   - name: Klaus-Holger Knorr
-    affil: '1'
+    affil: "1"
     email:
-#  - name: Alice Author
-#    affil: "1,**"
-#    email: alice@doe.com
-#  - name: Bob Author
-#    affil: "1,**"
-#    email: bob@doe.com
-#  - name: Christine Author
-#    affil: "1,2"
-#    email: christine@doe.com
-#  - name: Derek Author
-#    affil: "2,*"
-#    email: derek@doe.com
 #
 affiliations:
-  - number: 1
-    text: "Ecohydrology & Biogeochemistry Group, Institute of Landscape Ecology, University of Münster, 48149, Germany"
-  - number: 2
-    text: "Spatiotemporal Modelling Lab, Institute for Geoinformatics, University of Münster, 48149, Germany"
-#  - number: "**"
-#    text: "these authors contributed equally to this work"
+  - number: "1"
+    text: "Ecohydrology & Biogeochemistry Group, Institute of Landscape Ecology, University of Münster, Germany"
+  - number: "2"
+    text: "Spatiotemporal Modelling Lab, Institute for Geoinformatics, University of Münster, Germany"
+  - number: "3"
+    text: "Pädagogische Hochschule St.Gallen (PHSG), Notkerstrasse 27, 9000 St.Gallen, Schweiz"
+  - number: "4"
+    text: "Albert-Ludwigs-Universität Freiburg "
+  - number: "5"
+    text: "Soil Ecology, University of Bayreuth, Dr.-Hans-Frisch-Str. 1-3, 95448 Bayreuth, Germany "
+  - number: "6"
+    text: "Agroscope, Field-Crop Systems and Plant Nutrition, Nyon, Switzerland "
+  - number: "7"
+    text: "University of North Florida: Jacksonville, Florida, US "
+  - number: "8"
+    text: "Department of Geology, Babeş-Bolyai University, Kogalniceanu, 1, 400084, Cluj-Napoca, Romania "
+  - number: "9"
+    text: "UK Centre for Ecology & Hydrology Bush Estate, Penicuik, Edinburgh EH26 0QB, United Kingdom"
+  - number: "10"
+    text: "Bioclimatology, University of Göttingen, Göttingen, Germany "
+  - number: "11"
+    text: "University of Lodz, Faculty of Biology and Environmental Protection, Department of Biogeography, Paleoecology and Nature Conservation, Banacha 1/3, 90-237 Łodz, Poland"
+  - number: "12"
+    text: "Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden"
+  - number: "13"
+    text: "Department of Thematic Studies-Environmental Change, Linköping University, Linköping, Sweden "
+  - number: "14"
+    text: "Department of Geography and Regional Research, Geoecology, Faculty of Earth Sciences, Geography and Astronomy, University of Vienna, Vienna, Austria "
+  - number: "15"
+    text: "Department of Renewable Resources, University of Alberta, Edmonton, AB, T6G 2G7, Canada"
+  - number: "16"
+    text: "Department of Earth Sciences, Earth and Climate Cluster, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands"
+  - number: "17"
+    text: "Department of Microbiology, The Ohio State University, Columbus, OH 43210, USA"
+  - number: "18"
+    text: "Federal Agency for Water Management, Institute for Land and Water Management Research, Petzenkirchen, 3252, Austria "
+  - number: "19"
+    text: "Faculty of Agricultural and Environmental Sciences, University of Rostock, Justus-von-Liebig-Weg 6, 18059 Rostock, Germany "
+  - number: "20"
+    text: "Climate Resilience, Wageningen Environmental Research, Wageningen University & Research, PO Box 47, NL-6700 AA, Wageningen, the Netherland"
+  - number: "21"
+    text: "Stiftung Naturschutz Schleswig-Holstein, Eschenbrook 4, 24113 Molfsee, Germany"
+  - number: "22"
+    text: "Centro Austral de Investigaciones Científicas (CADIC), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Ushuaia, Tierra del Fuego, Argentina "
+  - number: "23"
+    text: "Instituto de Ciencias Polares, Ambiente y Recursos Naturales (ICPA), Universidad Nacional de Tierra del Fuego (UNTDF), Ushuaia, Tierra del Fuego, Argentina "
+  - number: "24"
+    text: "Département de géographie, Université de Montréal, Canada "
+  - number: "25"
+    text: "Department of Ecohydrology and Biogeochemistry, Leibniz Institute of Freshwater Ecology and Inland Fisheries, Berlin, Germany "
+  - number: "26"
+    text: "Department of Ecology, Radboud Institute for Biological and Environmental Sciences, Faculty of Science, Radboud University Nijmegen, 6525 AJ Nijmegen, The Netherlands"
+  - number: "27"
+    text: "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, SO17 1BJ, UK"
+  - number: "28"
+    text: "Department of Thematic Studies, Environmental Change, Linköping University, 58183 Linköping, Sweden"
+  - number: "29"
+    text: "Département de Géographie, Université de Montréal, Campus MIL, 1375 Avenue Thérèse Lavoie-Roux, Montréal, Québec, H2V 0B3, Canada "
+  - number: "30"
+    text: "University of Alberta, Department of Renewable Resources, South Academic Building 348D, Edmonton, AB, T6G 2G7 "
+  - number: "31"
+    text: "Hatfield Consultants, 1228 Kensington Rd NW Unit 305, Calgary, AB T2N 3P7 "
+  - number: "32"
+    text: "Department of Earth Sciences, University of Durham, Durham, DH1 3LE, UK "
+  - number: "33"
+    text: "Ecohydrology Research Group, Dept. Hydrology & Water Resources, Nanjing University of Information Science and Technology, Ningliu Road. 219, 210000 Nanjing"
   - number: "*"
     text: "corresponding author(s): Henning Teickner (henning.teickner@uni-muenster.de)"
 #
@@ -196,7 +196,7 @@ keywords:
 #- PAC1
 #- superPAC
 
-bibliography: '`r tar_read(pmirdp_references_file)`'
+bibliography: '`r targets::tar_read(pmirdp_references_file)`'
 #biblio-style: "naturemag-doi"
 # bibstyle options spbasic(default), spphys, spmpsci
 csl: nature.csl
@@ -205,6 +205,9 @@ output:
     toc: false
     #latex_engine: xelatex
     keep_tex: true
+    number_sections: false
+  bookdown::word_document2:
+    toc: false
     number_sections: false
 fontsize: 12pt
 link-citations: true
@@ -215,6 +218,7 @@ header-includes:
   - \usepackage[modulo]{lineno}
   - \linenumbers
   - \usepackage{xr} \externaldocument[si-]{pmird-supporting-info}
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
@@ -225,10 +229,16 @@ knitr::opts_chunk$set(echo = FALSE, eval = TRUE, fig.align='center', fig.pos = '
 library(knitr)
 library(kableExtra)
 library(pmird)
+library(targets)
+library(ir)
+library(irpeat)
+library(ggplot2)
+library(magrittr)
 ```
 
 
 ```{r}
+targets::tar_source()
 mir_quality_config <- pmird::mir_quality_config
 tar_load(pmirdp_data_overview)
 tar_load(pmirdp_data_overview_2)
@@ -251,17 +261,19 @@ cat(pmirdp_make_affiliation_list(rmarkdown::metadata$affiliations))
 
 <!--(700 words maximum) An overview of the study design, the assay(s) performed, and the created data, including any background information needed to put this study in the context of previous work and the literature. The section should also briefly outline the broader goals that motivated the creation of this dataset and the potential reuse value. We also encourage authors to include a figure that provides a schematic overview of the study and assay(s) design. The Background \& Summary should not include subheadings. This section and the other main body sections of the manuscript should include citations to the literature as needed.-->
 
-Peat samples are underrepresented even in the largest open soil spectral libraries [@Nocita.2014; @ViscarraRossel.2016; @Cardelli.2017; @Orgiazzi.2018; @Helfenstein.2021; @WorldAgroforestryICRAF.2021; @Hengl.2021]. In addition, many libraries currently do not provide many of the variables relevant for peatland research. Existing open databases focusing on peatlands [@Charman.2013; @Loisel.2014; @Gallego-Sala.2018] do not contain spectral data. The Peatland Mid Infrared Spectra Database ('pmird' database) [@Teickner.2025c] partly addresses this data gap: it contains `r sum(!is.na(pmirdp_data_overview |> dplyr::filter(!duplicated(id_measurement)) |> dplyr::pull(mirs_file)))` mid infrared spectra of peat, peat-forming vegetation, and dissolved organic matter, and data on various peat chemical and physical properties (Tab. \@ref(tab:pmirdp-data-overview-2)).
+Compared to many other soils, peat has a high carbon density [@Loisel.2014], and peatlands therefore store more than 500 Gt of carbon [@Yu.2010; @Nichols.2019], despite covering only 3% of the land surface [@Xu.2018]. Moreover, because a large part of peat is preserved because of high water table levels that slow down decomposition of the peat organic matter, peatlands can emit comparatively large amounts of carbon when water table levels decrease [@Blodau.2002], for example due to land use or climate change [@Frolking.2011]. As for other ecosystems, characterizing peatland states and processes and developing process models requires measurements of many peat properties. In addition, better understanding of processes requires information on peat molecular structures, for example decomposition processes [@Serk.2022a], redox reactions [@Heitmann.2006; @Gao.2019], or metal accumulation [@Pierce.2022]. 
+
+Mid infrared spectra (MIRS) are useful for peatland studies because they allow quantification of the relative abundances of many molecular structures. MIRS have been used to estimate the degree of decomposition [<!--e.g., -->@Niemeyer.1992; @Beer.2008; @Biester.2014], the amount of organic matter fractions [<!--e.g., -->@Artz.2008], and --- with spectral prediction models --- various peat properties, such as elemental contents, sugar fractions, or pH [<!--e.g., -->@Chapman.2001; @Artz.2008; @Helfenstein.2021]. A database of peat MIRS would be useful to generalize findings from individual studies and to develop spectral prediction models which could reduce resource and time constraints to measure peat properties relevant to characterize peatland states and processes.
+
+Peat samples are underrepresented even in the largest open soil spectral libraries [@Nocita.2014; @ViscarraRossel.2016; @Cardelli.2017; @Orgiazzi.2018; @Helfenstein.2021; @WorldAgroforestryICRAF.2021; @Hengl.2021]. In addition, many libraries currently do not provide many of the variables relevant for peatland studies. Existing open databases focusing on peatlands [@Charman.2013; @Loisel.2014; @Gallego-Sala.2018] do not contain spectral data. The Peatland Mid Infrared Database ('pmird' database) [@Teickner.2025c] addresses this data gap: it contains `r sum(!is.na(pmirdp_data_overview |> dplyr::filter(!duplicated(id_measurement)) |> dplyr::pull(mirs_file)))` mid infrared spectra of peat, peat-forming vegetation, and dissolved organic matter from peat porewater or peat-covered catchments, as well as data on various peat chemical and physical properties (Tab. \@ref(tab:pmirdp-data-overview-2)).
   
-Mid infrared spectra (MIRS) are useful for peatland research because they allow to quantify relative abundances of many molecular structures. MIRS have been used to estimate the degree of decomposition [<!--e.g., -->@Niemeyer.1992; @Beer.2008; @Biester.2014], the amount of organic matter fractions [<!--e.g., -->@Artz.2008], and --- with spectral prediction models --- various peat properties [<!--e.g., -->@Chapman.2001; @Artz.2008; @Helfenstein.2021]. The 'pmird' database can help to generalize findings from individual studies and to develop spectral prediction models.
+The 'pmird' database is a legacy database that combines data from past studies, many of which are not yet published. The database contains samples from across the globe from `r length(unique(pmirdp_data_overview$id_dataset))` studies. Most MIRS are transmission-Fourier transformed MIRS, but there are also attenuated total reflectance-Fourier transformed infrared spectra (ATR-FTIR). In addition to MIRS, 'pmird' contains heterogeneous data on peat physical (bulk densities, radiocarbon ages, $^{210}$Pb, $^{226}$Ra, $^{137}$Cs activities, volumetric water content), chemical (main and trace elemental contents, pH, loss on ignition, electron accepting and donating capacities), and paleoecological (plant macrofossils, testate amoebae) variables, depending on whether such data were available in each case.  
   
-The 'pmird' database is a legacy database that combines data from past studies, many of which are not yet published elsewhere. The database contains samples from across the globe from `r length(unique(pmirdp_data_overview$id_dataset))` studies. Most MIRS are transmission-Fourier transformed MIRS, but there are also attenuated total reflectance-Fourier transformed infrared spectra (ATR-FTIR). In addition to MIRS, 'pmird' contains heterogeneous data on peat physical (bulk densities, radiocarbon ages, $^{210}$Pb, $^{226}$Ra, $^{137}$Cs activities, water content), chemical (main and trace elemental contents, pH value, loss on ignition, electron accepting and donating capacities), and paleoecological (plant macrofossils, testate amoebae) variables, depending on whether such data were available in each case.  
+Due to the legacy nature of the datasets, (meta)data completeness, quality, and validation are heterogeneous. The 'pmird' database provides as detailed metadata as possible to allow judging which samples and measurements meet specific quality requirements. In addition metadata that summarize the quality of the spectra are provided. Most of the peat samples are from northern bogs, whereas southern or tropical peat and fen peat is underrepresented.
   
-Due to the legacy nature of the datasets included, (meta)data completeness, quality, and validation are heterogeneous. The 'pmird' database provides as detailed metadata as possible to allow judging which samples and measurements meet specific quality requirements. In addition metadata that summarize the quality of the spectra are provided. 
+We highlight two future applications of the 'pmird' database: first, the database may be used to develop spectral prediction models that allow prediction of peat properties from MIRS, for example carbon contents. Second, if such models are available, they can be applied to the 'pmird' database to predict peat properties for samples without direct measurements for these peat properties. Since the 'pmird' database contains many samples with spectra, this may allow the creation of a more comprehensive collection of peat samples with estimates for many more peat properties than currently available.
   
-We highlight two future applications of the 'pmird' database: first, the database may be used to develop spectral prediction models that allow to predict peat properties from MIRS. Second, if such models are available, they can be applied to the 'pmird' database to predict peat properties for samples where these were not directly measured. Since the 'pmird' database contains many samples with spectra, this may allow to create a more comprehensive collection of peat samples with estimates for many peat properties than currently available.
-  
-The 'pmird' database is a first attempt to make peat-related MIRS more accessible to researchers and to support the development of community standards for spectral data. Contributions are welcome and can be proposed via https://github.com/henningte/pmird.
+The 'pmird' database is a first attempt to make peat-related MIRS more accessible to researchers, to support the development of community standards for spectral data, and to facilitate research on peatland biogeochemistry. Contributions are welcome and can be proposed via https://github.com/henningte/pmird.
 
 
 # Methods {-#methods}
@@ -274,7 +286,7 @@ The 'pmird' database was created by collecting data and metadata of completed an
 
 ## Collection of suitable datasets {-}
 
-First, a list of potentially available datasets was created. At this stage, the only criterion for inclusion into the list were the availability of MIRS of peat samples (except for data from Liu et al. [@Liu.2019], see below) or related samples (dissolved organic matter, peat-forming vegetation) and that a data source was known to the first author. From this list, all datasets were excluded for which no permission for publication could be obtained. Datasets were not excluded if they met the following conditions: Either the data are published under an open access license compatible with the CC-BY 4.0 license, or data authors or responsible parties allowed publication of their data under the CC-BY 4.0 license. Data authors or responsible parties were contacted via email describing the project's scope and aims, they were asked for permission to use the data and to provide access to data and relevant metadata. Key characteristics of the collected datasets included in 'pmird' database and references to original data sources are presented in Tab. \@ref(tab:pmirdp-data-overview-2) and an overview on the spatial distribution of samples is given in Fig. \@ref(fig:pmirdp-fig-plot-1).
+First, a list of potentially available datasets was created. At this stage, the only criterion for inclusion into the list was the availability of MIRS of peat samples (except for data from Liu and Lennartz [@Liu.2019], see below) or related samples (dissolved organic matter, peat-forming vegetation; data from Hodgkins et al. [@Hodgkins.2018] also contain paper and non-peatland vegetation samples that were used in peatland research) and that a data source was known to the first author. From this list, datasets were excluded when no permission for publication could be obtained. Datasets were not excluded if they met the following conditions: either the data are published under an open access license compatible with the CC-BY 4.0 license, or the authors or responsible parties allowed publication of their data under the CC-BY 4.0 license. Data authors or responsible parties were contacted via email describing the project's scope and aims, were asked for permission to use the data and to provide access to data and relevant metadata. Key characteristics of the collected datasets included in the 'pmird' database and references to original data sources are presented in Tab. \@ref(tab:pmirdp-data-overview-2) and an overview on the spatial distribution of samples is given in Fig. \@ref(fig:pmirdp-fig-plot-1).
 
 (ref:pmirdp-data-overview-2-caption) Summary of the datasets included into the pmird database. "ID" is a unique identifier for each dataset in pmird.<!--" Coordinates" are approximate sampling location coordinates for samples from the dataset. "Dates" are approximate sampling dates. "No. Samples" is the number of samples the dataset contains.--> "No. MIRS" is the number of samples for which a MIRS is available. "Peat properties" are peat properties which were measured at least for one sample in the dataset. "MIRS mode" describes the MIRS measurement mode (ATR-FTIR: Attenuated total reflectance-Fourier transformed infrared, Absorbance-FTIR: Absorbance-Fourier transformed infrared). "Reference" are original references for the dataset.
 
@@ -316,26 +328,26 @@ knitr::include_graphics(tar_read(pmirdp_plot_1))
 
 ## Available data formats {-}
 
-For the remaining datasets, data were available in form of: 
+For the remaining datasets, data were available as: 
 
 1. raw data output of measurement devices,  
 2. processed data output of measurement devices (e.g., baseline corrected MIRS, element contents predicted from wavelength-dispersive X-ray fluorescence analysis, etc.),  
-3. entries into template files specifically developed for the database, or  
+3. entries into template files specifically developed for the database,  
 4. custom files, mostly Excel spreadsheets and published manuscripts, created within the respective projects for which the data were originally collected. 
 
-Dataset contributions were preferred in the order 1 to 4. Where possible, raw data were directly requested from data contributors or retrieved from device backups. If only available as PDF, values from data tables were extracted with the 'tabulizer' R package [@Leeper.2018]. In a next step, these datasets were reorganized and included in the 'pmird' database.
+Dataset contributions were preferred in the order from 1 to 4. Where possible, raw data were directly requested from data contributors or retrieved from device backups. If only available as PDF, values from data tables were extracted with the 'tabulizer' R package [@Leeper.2018]. In a next step, these datasets were reorganized and included in the 'pmird' database.
 
 ## Database schema {-}
 
-The 'pmird' database was set up as 'MariaDB' database. The database schema (Fig. \@ref(fig:pmirdp-fig-plot-2)) was designed to store data and metadata in accordance with classes and elements defined by the Ecological Metadata Language (EML) [@Jones.2019] that were applicable and relevant to the data types and metadata available.<!-- The EML is a widely used metadata standard in ecological and environmental disciplines and is specifically designed for various ecological data \cite{Jones.2019}. Complying with the EML allows interoperability and thus facilitates access to the data \cite{Jones.2019}. In addition, the EML metadata types can serve as benchmarks with which data quality and reproducibility of data can be evaluated (See section [Technical validation]).--> General metadata that were considered relevant are geographic, temporal and taxonomic coverage, measurement instruments, and a description of individual methods and method steps [@Jones.2019]. In addition to the EML, discipline- and sample- or analytic-specific data reporting standards and recommendations were used to decide what data and metadata to include into the 'pmird' database: 
+The 'pmird' database was set up as 'MariaDB' database. The database schema (Fig. \@ref(fig:pmirdp-fig-plot-2)) was designed to store data and metadata in accordance with classes and elements defined by the Ecological Metadata Language (EML) [@Jones.2019] that were applicable and relevant to the data types and metadata available.<!-- The EML is a widely used metadata standard in ecological and environmental disciplines and is specifically designed for various ecological data \cite{Jones.2019}. Complying with the EML allows interoperability and thus facilitates access to the data \cite{Jones.2019}. In addition, the EML metadata types can serve as benchmarks with which data quality and reproducibility of data can be evaluated (See section [Technical validation]).--> General metadata that were considered relevant are geographic, temporal and taxonomic coverage, measurement instruments, and a description of individual methods and method steps [@Jones.2019]. In addition to the EML, discipline- and sample- or analytic-specific data reporting standards and recommendations were used to decide which data and metadata to include into the 'pmird' database: 
 
-1. Peat coring and general peat geochemical and physical analysis [@LeRoux.2010; @DeVleeschouwer.2010a; @Chambers.2011].
+1. peat coring and general peat geochemical and physical analysis [@LeRoux.2010; @DeVleeschouwer.2010a; @Chambers.2011]
 
-2. $^{210}$Pb, $^{226}$Ra, and $^{137}$Cs dating [@Courtney-Mustaphi.2019; @Khider.2019].
+2. $^{210}$Pb, $^{226}$Ra, and $^{137}$Cs dating [@Courtney-Mustaphi.2019; @Khider.2019]
 
-3. radiocarbon dating [@Khider.2019].
+3. radiocarbon dating [@Khider.2019]
 
-4. macrofossils and testate amoebae [@Mauquoy.2010; @Booth.2010a].
+4. plant macrofossils and testate amoebae [@Mauquoy.2010; @Booth.2010a].
 
 5. MIRS: all metadata extractable with the R packages 'hyperSpec' [@Beleites.2021] and 'simplerspec' [@Baumann.2020] (as implemented in the R packages 'ir' [@Teickner.2022e] and 'pmird' [@Teickner.2025d]) were extracted and additional quality variables were defined (see section [Technical Validation]). 
 
@@ -343,7 +355,7 @@ A more detailed description of the database schema is given in section [Data Rec
 
 ## Dataset import and preprocessing {-}
 
-The collected datasets were included into the 'pmird' database using functions from the 'pmird' package [@Teickner.2025d].<!-- This template was customized for each dataset to match dataset-specific requirements, such as the attributes a dataset comprises, the specific metadata sources (e.g. provided via email, available from published manuscripts, etc.), or the quality and degree of detail of the metadata. The scripts enable the reproducible reorganization, preprocessing, and import into the database.   --> Where MIRS were available as raw data, these were imported including their metadata, using the R packages 'ir' [@Teickner.2022e],  'hyperSpec' [@Beleites.2021], and 'simplerspec' [@Baumann.2020]. The metadata collected for MIRS are the metadata extracted with these packages. Where metadata were additionally described in manuscripts using the data (for example the number of scans or measurement devices used), this was added. All spectra included in the database were included as received by the data contributors, i.e. no additional preprocessing was applied to the MIRS, but if no raw spectra were available the MIRS may be already preprocessed to some extent.  
+The collected datasets were included into the 'pmird' database using functions from the 'pmird' package [@Teickner.2025d].<!-- This template was customized for each dataset to match dataset-specific requirements, such as the attributes a dataset comprises, the specific metadata sources (e.g. provided via email, available from published manuscripts, etc.), or the quality and degree of detail of the metadata. The scripts enable the reproducible reorganization, preprocessing, and import into the database.   --> Where MIRS were available as raw data, these were imported including their metadata, using the R packages 'ir' [@Teickner.2022e],  'hyperSpec' [@Beleites.2021], and 'simplerspec' [@Baumann.2020]. The metadata collected for MIRS are the metadata extracted with these packages. If metadata were additionally described in manuscripts using the data (for example the number of scans or measurement devices used), this was added. All spectra included in the database were included as received by the data contributors so that no additional preprocessing was applied to the MIRS, but if no raw spectra were available the MIRS may be already preprocessed to some extent.  
   
 Other preprocessing steps that were applied are:   
 
@@ -351,13 +363,13 @@ Other preprocessing steps that were applied are:
 
 2. The recalibration of element contents using wavelength-dispersive X-ray fluorescence --- in case pellet masses used during measurements differed from those in the calibration measurements (also using 'elco'). Measurement errors estimated from these recalibrations are stored alongside the corrected average values.  
 
-3. unit conversion conducted with the R packages 'units' [@Pebesma.2016] and 'elco'.   
+3. Unit conversion conducted with the R packages 'units' [@Pebesma.2016] and 'elco'.   
 
-During data import, some samples or data were excluded: Samples for which no (approximate) sampling location and (approximate) sampling time were available, were excluded. Corrupted MIRS (broken file format) were excluded. Macrofossil counts where no exact sample volume was available were excluded. Finally, data which were not considered as usable in the original projects (e.g., due to measurement errors, device failures, etc.) were excluded.  
+During data import, some samples or data were excluded. These included: (1) samples for which no (approximate) sampling location and (approximate) sampling time were available, (2) corrupted MIRS (broken file format), (3) macrofossil counts where no exact sample volume was available, and (4) data which were not considered as usable in the original projects (e.g., due to measurement errors, device failures, etc.).  
 
-An exception was made for data from Liu et al.  [@Liu.2019]: Liu et al.  [@Liu.2019] provide a database of peat physical and hydraulic properties, without MIRS,  collected from various literature sources. Information on sampling locations and dates are not included in the database since they were not available from Liu et al. [@Liu.2019].
+An exception was made for data from Liu and Lennartz [@Liu.2019] that are a database of peat physical and hydraulic properties, without MIRS, collected from various literature sources. Information on sampling locations and dates are not included in the database since they were not available from Liu and Lennartz [@Liu.2019]. These data were included because they are not published yet, but can be useful to develop prediction models for peat hydraulic properties. None of the data from Liu and Lennartz [@Liu.2019] corresponds to other samples in the database.
   
-In all cases, metadata were available only in a non-standardized format. In most cases, metadata were available only in the form of published manuscripts, including sampling locations, the description of methods, instruments, settings, and data preprocessing. From these data sources, as detailed metadata as possible were extracted. In particular, any remarks available on data quality, validation, and processing were included either in the methods description or as comments for individual samples or measurements. In some cases, additional metadata could be retrieved from data contributors.
+Available metadata were encoded in an available metadata standard. In most cases, metadata were available only in the form of published manuscripts, including sampling locations, the description of methods, instruments, settings, and data preprocessing. From these data sources, as detailed metadata as possible were extracted. In particular, any remarks available on data quality, validation, and processing were included either in the methods description or as comments for individual samples or measurements. In some cases, additional metadata could be retrieved from data contributors.
 
 
 # Data Records {-#datarecords}
@@ -374,7 +386,7 @@ The schema of the 'pmird' database is shown in Fig. \@ref(fig:pmirdp-fig-plot-2)
   
 The top-level table is `datasets`. It stores general information on a dataset, such as the dataset ID, title, year of publication, license, and reference publication. It also includes an identifier that links to the methods used to create the data.  
 
-(ref:pmirdp-fig-plot-2-caption) Database schema for 'pmird'. Each table is represented as a box. Tables contain unique identifiers for data entities (e.g. datasets, samples, or measurements) --- primary keys (underlined) and foreign keys --- which are listed in each box. Keys are used to link data entities between tables. These links are shown as curves pointing to the key in the parent table that is referenced.
+(ref:pmirdp-fig-plot-2-caption) Database schema for 'pmird'. Each table is represented as a box and contain unique identifiers for data entities (e.g. datasets, samples, or measurements) --- primary keys (underlined) and foreign keys --- which are listed in each box. Keys are used to link data entities between tables. These links are shown as curves pointing to the key in the parent table that is referenced.
 
 ```{r pmirdp-fig-plot-2, fig.cap='(ref:pmirdp-fig-plot-2-caption)', out.height='90%'}
 knitr::include_graphics(tar_read(pmirdp_plot_2))
@@ -383,21 +395,21 @@ knitr::include_graphics(tar_read(pmirdp_plot_2))
 
 ### Samples {-}
 
-To each dataset, a set of samples in the `samples` table is assigned via the variable `id_dataset`. The table `samples` stores metadata on individual samples collected during a project, such as where and when samples were collected, what type the sample is (e.g. peat or vegetation), taxonomic information, or from what microform samples were collected. Special metadata or metadata difficult to formalize are stored in the `comments_samples` attribute. The table has a row for each sample indexed by `id_sample`.  
+To each dataset, a set of samples in the `samples` table is assigned via the variable `id_dataset`. The table `samples` stores metadata on individual samples collected during a project, such as where and when samples were collected, what type the sample is (e.g. peat or vegetation), taxonomic information, or from what microform (e.g., hummocks, hollows, or lawns) samples were collected. Special metadata or metadata difficult to formalize are stored in the `comments_samples` attribute. The table has a row for each sample indexed by `id_sample`.  
 
 
 ### Measurements {-}
 
-The data on sample attributes derived from measurements (e.g. element contents, pH value, bulk density) are stored in a separate table `data`, where each row represents a measurement and is indexed by `id_measurement`. This allows to store replicate measurements on the same sample as are common for some assays or sample collection protocols. The link between measurements and samples is provided via the table `data_to_samples`.  
+The data on sample attributes derived from measurements (e.g. element contents, pH, bulk density) are stored in a separate table `data`, where each row represents a measurement and is indexed by `id_measurement`. This format allows storage of replicate measurements on the same sample as are common for some assays or sample collection protocols. The link between measurements and samples is provided via the table `data_to_samples`.  
   
-There are three exceptions to this setup consisting of the `samples` and `data` tables: First, MIRS are not directly stored in `data`, but `data` only contains an attribute `mirs_file` that stores the path to the files in the file system where the individual MIRS are stored. Second, MIRS metadata are stored in a separate table `mir_metadata` linked to `data` via `id_measurement`. Third, macrofossil data are stored in a separate table `macrofossils` linked to `data` via `id_measurement` to account for the high diversity in macrofossil attributes (e.g., different taxa, different size classes, etc.).
+There are three exceptions to this setup consisting of the `samples` and `data` tables: First, MIRS are not directly stored in `data`, but `data` only contains an attribute `mirs_file` that stores the path to the files in the file system where the individual MIRS are stored. Second, MIRS metadata are stored in a separate table `mir_metadata` linked to `data` via `id_measurement`. Third, plant macrofossil and testate amoebae data are stored in a separate table `macrofossils` linked to `data` via `id_measurement` to account for the high diversity in macrofossil attributes (e.g., different taxa, different size classes, etc.).
 
 
 ### Metadata {-}
 
-Additional metadata on coverage, methods, instruments, involved persons are stored in separate tables. Each dataset has coverage information, including geographic coverage (a bounding box for the sampling locations and a description of the sampling locations; table `geographic_coverages`), temporal coverage (time point or range of the data collection; table `temporal_coverages`), and taxonomic coverage (taxa included in the dataset; table `taxonomic_coverages`). In cases where only a sampling year was known, the month and day were set to the first of January in that year.  
+Additional metadata on coverage, methods, instruments, and involved persons are stored in separate tables. Each dataset has coverage information, including geographic coverage (a bounding box for the sampling locations and a description of the sampling locations; table `geographic_coverages`), temporal coverage (time point or range of the data collection; table `temporal_coverages`), and taxonomic coverage (taxa included in the dataset; table `taxonomic_coverages`). In cases where only the sampling year was known, the month and day were set to the first of January in that year. Such cases have a corresponding note in column `comments_samples`.  
 
-Each dataset has a detailed method description in several rows in the table `methods`. For each dataset, the first row contains a description of the sample collection and --- if applicable, sampling design or experimental design. This row is linked to the table `method_steps` (via table `methods_to_method_steps`) where individual steps for all applied methods (if applicable) are described (e.g., drying, milling, MIRS measurements, measurements of elemental contents, macrofossil analysis, dating, etc.). An example of such a description is shown in Tab. \@ref(si-tab:pmirdp-sup-example-methods-d8).  
+Each dataset has a detailed method description in several rows in the table `methods`. For each dataset, the first row contains a description of the sample collection and --- if applicable, sampling design or experimental design. This row is linked to the table `method_steps` (via table `methods_to_method_steps`) where individual steps for all applied methods (if applicable) are described (e.g., drying, milling, MIRS measurements, measurements of elemental contents, plant macrofossil analysis, dating, etc.). An example of such a description is shown in Tab. \@ref(si-tab:pmirdp-sup-example-methods-d8).  
   
 In addition, individual methods for each dataset are linked via table `attributes_to_datasets_to_methods` to the specific attributes they refer to (e.g., C content), such that there is no ambiguity over which methods were used to measure a specific attribute.  
   
@@ -413,21 +425,21 @@ All datasets were validated on two levels: a validation within the projects with
 
 ## Validation within individual projects {-}
 
-The 'pmird' database combines heterogeneous datasets collected within different individual projects. For different attributes, the extent to which community standards for validation procedures exist is highly variable. For instance, whereas peat dating typically has highly standardized validation procedures because measurements are performed by highly specialized laboratories with standardized protocols, no such unique standard exists for example for bulk density measurements or for the measurement of MIRS. For these reasons, validation procedures, the extent to which these are reported, and data quality vary between datasets. 
+The 'pmird' database combines heterogeneous datasets collected within different individual projects. For different attributes, the extent to which community standards for validation procedures exist is highly variable. For instance, peat dating typically has highly standardized validation procedures because measurements are performed by highly specialized laboratories with standardized protocols, whereas no such unique standard exists for example for bulk density measurements or for the measurement of MIRS. For these reasons, validation procedures, the extent to which these are reported, and data quality vary between datasets. 
 
 
 ## Validation of datasets during import {-}
 
-In section [Collection of suitable datasets], we described that a first minimal quality check was whether sufficient metadata were available to provide basic information on the methods used (including instruments used, sample processing, sampling location and date). For the reasons mentioned in the previous subsection, an independent full technical validation could not be carried out due to the legacy nature of the data.<!-- In general, we assume that the technical quality of the data is high because most attributes are routinely measured by laboratories using in-house measurement protocols and certified reference materials (e.g. MIRS, all wavelength-dispersive X-ray fluorescence measurements, C and N content, and C and N stable isotope signatures included into the database).  -->
+As described in the section [Collection of suitable datasets], a first minimal quality check was whether sufficient metadata were available to provide basic information on the methods used (including instruments used, sample processing, sampling location and date). Due to the legacy nature of many datasets, an independent, full technical validation could not be performed, because in many cases raw data or information on data processing were not available.<!-- In general, we assume that the technical quality of the data is high because most attributes are routinely measured by laboratories using in-house measurement protocols and certified reference materials (e.g. MIRS, all wavelength-dispersive X-ray fluorescence measurements, C and N content, and C and N stable isotope signatures included into the database).  -->
 
-Only for few datasets and only for C and N contents and stable isotope signatures were raw data accessible (including standard measurements). In these cases, the calibration was checked and recalibrated where necessary and the corresponding estimated measurement errors included in the database.
+Raw data (including standard measurements) were available for only a few datasets, and only for C and N contents and stable isotope signatures. In these cases, the calibration was checked and recalibrated where necessary and the corresponding estimated measurement errors included in the database.
 
 
 ## Validation of mid infrared spectra {-}
 
-We computed several quality indicators to check the quality of the MIRS: it was checked whether the imported spectra were baseline corrected and what relative contribution of water vapor or CO$_2$ artifacts or noise they had. These quality indicators can be used to filter MIRS in the 'pmird' database.
+We computed several quality indicators to check the quality of the MIRS: it was checked whether the imported spectra were baseline corrected and we estimated the relative contribution of water vapor or CO$_2$-artifacts, and signal noise. These quality indicators can be used to filter MIRS in the 'pmird' database.
   
-Below, we will describe how the quality indicators were computed. All MIRS validation procedures make use of the following variables:
+Below, we describe how the quality indicators were computed. All MIRS validation procedures make use of the following variables:
 
 1. $\mathbf{\text{X}_1}$: The set of all MIRS interpolated with `ir::ir_interpolate()` with parameter `dw` set to 1.
 
@@ -437,17 +449,17 @@ Below, we will describe how the quality indicators were computed. All MIRS valid
 
 We quantified water vapor and CO$_2$ artifacts with reference spectra caused by pure water vapor and CO$_2$ (Fig. \@ref(fig:pmirdp-fig-plot-5)). The general procedure is to scale these reference spectra to a selected portion of the spectra which contains only water vapor or CO$_2$ peaks (Fig. \@ref(fig:pmirdp-fig-plot-4)). The so computed scale factor is an estimate for the relative contribution of water vapor and CO$_2$, respectively.  
   
-Ideally, the spectra of pure water vapor and CO$_2$ gas would be measured on each used device on which also the (peat) sample MIRS were measured [@Lasch.2012]. No such data were available, however, when background scans were available in the raw MIRS data, equivalent data for CO$_2$ can be generated from raw MIRS according to the following procedure:
+Ideally, the spectra of pure water vapor and CO$_2$ gas would be measured on each used device on which also the (peat) sample MIRS were measured [@Lasch.2012]. However, no such data were available. When background scans were present, we derived equivalent data for for CO$_2$ can be generated from raw MIRS according to the following procedure:
 
-1. Select two background spectra recorded on the same device and preferentially on the same day (with intensities recorded as transmission) which were recorded under different CO$_2$ concentrations, but similar water vapor concentrations. The differences can be inferred from the relative magnitude of peaks which are known to be caused by water vapor and CO$_2$, respectively [@Wallace.1997a; @Linstrom.1997]. Since we are only interested in an approximate estimation of the relative contribution of CO$_2$, remaining small differences in water vapor concentrations were negligible (Fig. \@ref(fig:pmirdp-fig-plot-5)).
+1. Selection: Select two background spectra recorded on the same device and preferentially on the same day (with intensities recorded as transmission) which were recorded under different CO$_2$ concentrations, but similar water vapor concentrations. The differences can be inferred from the relative magnitude of peaks which are known to be caused by water vapor and CO$_2$, respectively [@Wallace.1997a; @Linstrom.1997]. Since we are only interested in an approximate estimation of the relative contribution of CO$_2$, remaining small differences in water vapor concentrations were negligible (Fig. \@ref(fig:pmirdp-fig-plot-5)).
 
-2. Compute the spectrum for pure CO$_2$ by dividing the intensity values of both spectra. This spectrum is converted to absorbance values
+2. Calculation: Compute the spectrum for pure CO$_2$ by dividing the intensity values of both spectra. This spectrum is converted to absorbance values
 
-3. Perform additional preprocessing steps to make the spectra usable for the estimation and potential correction tasks: (1) interpolate the spectrum to integer wavenumber values increasing by 1, (2) replace the regions 728 to 2230 cm$^{-1}$ and $>3800$ cm$^{-1}$ by straight lines (this was done to remove remaining noise and water vapor artifacts from regions known not to contain peaks caused by CO$_2$, only in case such artifacts were visible in the resulting spectra [@Wallace.1997a; @Linstrom.1997]), and (3) baseline correct the spectra.
+3. Preprocessing: Perform additional preprocessing steps to make the spectra usable for the estimation and potential correction tasks: (1) interpolate the spectrum to integer wavenumber values increasing by 1, (2) replace the regions 728 to 2230 cm$^{-1}$ and $>3800$ cm$^{-1}$ by straight lines (this was done to remove remaining noise and water vapor artifacts from regions known not to contain peaks caused by CO$_2$, only in case such artifacts were visible in the resulting spectra [@Wallace.1997a; @Linstrom.1997]), and (3) baseline correct the spectra.
 
 For water vapor, the procedure to obtain an approximately pure water vapor spectrum is the same as for CO$_2$, with the following differences: In step 3 above, no regions of the water vapor spectrum are replaced by straight lines. Moreover, the following additional steps were performed (after step 3 above):
 
-4. Use the respective pure CO$_2$ spectrum to perform an atmospheric correction as suggested by [@Perez-Guaita.2013]. This was done because CO$_2$ concentrations always differed to some extent between the available background spectra. This correction was only partly successful, however, sufficient to obtain an approximately pure water vapor spectrum for our purposes.
+4. Atmospheric correction: Use the respective pure CO$_2$ spectrum to perform an atmospheric correction as suggested by [@Perez-Guaita.2013]. This was done because CO$_2$ concentrations always differed to some extent between the available background spectra. This correction was only partly successful, however, sufficient to obtain an approximately pure water vapor spectrum for our purposes.
 
 5. Remaining negative intensity values were removed by dividing the intensity values such that the background at 2000 cm$^{-1}$ had an intensity of 1, then subtracting 1 from the intensity values, and finally setting all values $<0$ to 0. Remaining CO$_2$ artifacts and noise were removed by replacing the regions 600 to 1200<!--[---todo: check: In the script where bg spectra are defined, these ranges differ between Cary and Bruker. I need to check why and adjust this where necessary. A: I did this because for Bruker the CO2 correction was not fully successful and therefore there were other peaks. Since the water vapor spectrum has only few and small peaks in this region, I think this procedure is acceptable. Now, I used the same range across all spectra.]--> cm$^{-1}$ and 2200 to 3300 cm$^{-1}$ by straight lines.
 
@@ -479,9 +491,9 @@ d_reference_spectra_devices |>
 Different device settings, amounts of material used during measurements, and internal scattering result in different baseline absorbances recorded during MIRS measurements [@Lasch.2012]. Baseline correction is a heuristic procedure to subtract such differences in the baseline absorbance and thus is typically required to compare spectra of different samples [@Lasch.2012].  
 However, since baseline correction strongly depends on the specific spectra (e.g., the spectral range) and the occurrence of water and CO$_2$ artifacts, since different baseline procedures exist and more suitable algorithms may be developed in the future, it is preferable to publish unprocessed spectra.  
   
-This is not the case for all datasets in the 'pmird' database, as often only already baseline corrected data were available. Since these spectra can nevertheless be useful, they were not excluded. A further problem is that information whether a spectrum is already baseline corrected were available in no case, except from the published papers.
+Raw spectra were not available for all datasets in the 'pmird' database, as often only already baseline corrected data were available. Since these spectra can nevertheless be useful, they were not excluded. A further problem is that information whether a spectrum is already baseline corrected were available in no case, except from the published papers.
   
-To identify spectra that were already baseline corrected, we used the fact that MIRS of organic matter typically have a baseline that decreases from the smallest MIR wavenumber ranges (~ 400 cm$^{-1}$) to ~2300 cm$^{-1}$. Thus, not baseline corrected spectra have large baseline absorbances at lower wavenumber values, whereas already baseline corrected spectra have small baseline absorbances in this region.  
+To identify spectra that were already baseline corrected, we used the fact that MIRS of organic matter typically have a baseline that decreases from the smallest MIR wavenumber ranges (~ 400 cm$^{-1}$) to ~2300 cm$^{-1}$. Thus, non-baseline corrected spectra have large baseline absorbances at lower wavenumber values, whereas already baseline corrected spectra have small baseline absorbances in this region.  
   
 We used the following procedure to detect spectra that were already baseline corrected:
 
@@ -511,7 +523,7 @@ $\text{c}_\text{wv}$ is the relative contribution of water vapor to each spectru
 
 ### CO$_2$ artifacts {-}
 
-CO$_2$ causes a range of artifact peaks in MIRS due to differences in the atmospheric CO$_2$ concentration during sample measurements in comparison to background measurements [<!--e.g., -->@Wallace.1997a; @Perez-Guaita.2013]. CO$_2$ artifacts can distort peaks from organic matter particularly around ca. 600 to 750, 2250 to 2400, and 3500 to 3700 cm$^{-1}$ [@Wallace.1997a; @Linstrom.1997]. High quality spectra have small CO$_2$ peaks. To detect CO$_2$ peaks, we focused on the range `r paste0("[", paste(mir_quality_config$range_wv, collapse = ", "), "]")` cm$^{-1}$, where a series of CO$_2$ peaks can be observed [@Wallace.1997a; @Linstrom.1997], whilst organic matter typically causes no peaks in this range [@Stuart.2004; @Parikh.2014] (Fig. \@ref(fig:pmirdp-fig-plot-4)).  
+CO$_2$ causes a range of artifact peaks in MIRS due to differences in the atmospheric CO$_2$ concentration during sample measurements in comparison to background measurements [<!--e.g., -->@Wallace.1997a; @Perez-Guaita.2013]. CO$_2$ artifacts can distort peaks from organic matter particularly around ca. 600 to 750, 2250 to 2400, and 3500 to 3700 cm$^{-1}$ [@Wallace.1997a; @Linstrom.1997]. High quality spectra have small CO$_2$ peaks. To detect CO$_2$ peaks, we focused on the range `r paste0("[", paste(mir_quality_config$range_co2, collapse = ", "), "]")` cm$^{-1}$, where a series of CO$_2$ peaks can be observed [@Wallace.1997a; @Linstrom.1997], whilst organic matter typically causes no peaks in this range [@Stuart.2004; @Parikh.2014] (Fig. \@ref(fig:pmirdp-fig-plot-4)).  
   
 We used the following procedure to estimate the relative contribution of CO$_2$ to the MIRS:
 
@@ -526,7 +538,7 @@ $\text{c}_{\text{CO}_2}$ is the relative contribution of CO$_2$ to each spectrum
 
 ### Noise {-}
 
-MIRS intensities can have contributions from noise e.g. in dependency of the number of scans averaged per spectrum, the sensor, and the MIR radiation source [@Lasch.2012]. Noise can distort peaks and can cause differences in baseline correction, as well as the identification of water vapor and CO$_2$ artifacts. We estimated the relative contribution by noise as the variance of intensity values around the average intensity in a spectrum in a region without sharp peaks. For this, we focused on the range `r paste0("[", paste(mir_quality_config$range_noise, collapse = ", "), "]")` cm$^{-1}$ (Fig. \@ref(fig:pmirdp-fig-plot-4)), which has no sharp peaks caused by OM and is less impacted by water vapor than other regions without sharp peaks in organic matter MIRS.  
+MIRS intensities can have contributions from signal noise e.g. in dependency of the number of scans averaged per spectrum, the sensor, and the MIR radiation source [@Lasch.2012]. Noise can distort peaks and can cause differences in baseline correction, as well as the identification of water vapor and CO$_2$ artifacts. We estimated the relative contribution by noise as the variance of intensity values around the average intensity in a spectrum in a region without sharp peaks. For this, we focused on the range `r paste0("[", paste(mir_quality_config$range_noise, collapse = ", "), "]")` cm$^{-1}$ (Fig. \@ref(fig:pmirdp-fig-plot-4)), which has no sharp peaks caused by OM and is less impacted by water vapor than other regions without sharp peaks in organic matter MIRS.  
   
 We used the following procedure to estimate the relative contribution of noise to the MIRS:
 
@@ -534,29 +546,23 @@ We used the following procedure to estimate the relative contribution of noise t
   
 If $\text{c}_\text{noise} \approx 0$, no noise is detected in the spectrum and the larger $\text{c}_\text{noise}$ is, the larger is the relative contribution of noise. An overview on the values of $\text{c}_\text{noise}$ for all spectra is given in Fig. \@ref(fig:pmirdp-fig-plot-3) (d). $\text{c}_\text{noise}$ is stored as `noise_level_relative` in the table `mir_metadata` in the database.
 
-
-
-
-(ref:pmirdp-fig-plot-3-caption) Data quality assessment for the spectra in the 'pmird' database. For each validation step described in section [Validation of mid infrared spectra], the values of the defined variable to assess the quality of the spectra are shown for each spectrum. Spectra are listed in the order of their appearance in the 'pmird' database along the horizontal axis. Vertical lines represent the first and last spectrum in a dataset. Red horizontal lines are the dataset averages. Error bars represent standard errors for estimated contributions of water vapor and CO$_2$. (a) Intensity of the baseline of the spectra at 1400 cm$^{-1}$ ($\text{I}_{`r mir_quality_config[["is_baseline_corrected_wavenumber"]]`}({\mathbf{\text{X}_2}})$). This variable is used to identify baseline corrected spectra. The horizontal grey line denotes the threshold value ($\text{t}_\text{bc} =$`r mir_quality_config$is_baseline_corrected_threshold`) used to differentiate baseline corrected spectra (below the line) from not baseline corrected spectra (above the line). All values along the vertical axis are multiplied by 1000. (b) Relative contribution of water vapor to the spectra ($\text{c}_\text{wv}$, `mir_water_vapor_contribution_relative` in table `mir_metadata`). (c) Relative contribution of CO$_2$ to the spectra ($\text{c}_{\text{CO}_2}$, `mir_co2_contribution_relative` in table `mir_metadata`). (d) Relative contribution of noise to the spectra ($\text{c}_\text{noise}$, `noise_level_relative` in table `mir_metadata`). All values along the vertical axis are log transformed. 
-
-```{r pmirdp-fig-plot-3, fig.cap='(ref:pmirdp-fig-plot-3-caption)', out.width='100%'}
-knitr::include_graphics(tar_read(pmirdp_plot_3))
-```
-
-
-(ref:pmirdp-fig-plot-4-caption) A sample spectrum from the 'pmird' database with the spectral ranges used during assessment of the quality attributes highlighted. For "Is a spectrum baseline corrected?", this is `r paste0("[", paste(mir_quality_config$range_bc, collapse = ", "), "]")` cm$^{-1}$, the region to which spectra are clipped. To assess the relative contribution of water vapor, the range `r paste0("[", paste(mir_quality_config$range_wv, collapse = ", "), "]")` cm$^{-1}$ is considered. To assess the relative contribution of CO$_2$, CO$_2$ peaks in the range `r paste0("[", paste(mir_quality_config$range_wv, collapse = ", "), "]")` cm$^{-1}$ are considered. To assess the relative contribution of noise, the range `r paste0("[", paste(mir_quality_config$range_noise, collapse = ", "), "]")` cm$^{-1}$ is considered. 
-
-```{r pmirdp-fig-plot-4, fig.cap='(ref:pmirdp-fig-plot-4-caption)', out.width='100%'}
-knitr::include_graphics(tar_read(pmirdp_plot_4))
-```
-
-
-(ref:pmirdp-fig-plot-5-caption) The raw and preprocessed reference spectra used to estimate the relative contribution of water vapor and CO$_2$ to the spectra in the 'pmird' database. The preprocessed spectra (bottom row) correspond to $\text{x}_\text{wv}$ and $\text{x}_{\text{CO}_2}$, respectively. The top row shows the same spectra before preprocessing. Colors indicate the measurement devices on which the spectra were recorded.
+(ref:pmirdp-fig-plot-5-caption) The raw and preprocessed reference spectra used to estimate the relative contribution of CO$_2$ and water vapor to the spectra in the 'pmird' database. The preprocessed spectra (bottom row) correspond to $\text{x}_{\text{CO}_2}$ and $\text{x}_\text{wv}$, respectively. The top row shows the same spectra before preprocessing. Colors indicate the measurement devices on which the spectra were recorded.
 
 ```{r pmirdp-fig-plot-5, fig.cap='(ref:pmirdp-fig-plot-5-caption)', out.width='100%'}
 knitr::include_graphics(tar_read(pmirdp_plot_5))
 ```
 
+(ref:pmirdp-fig-plot-4-caption) A sample spectrum from the 'pmird' database with the spectral ranges used during assessment of the quality attributes highlighted. For "Is a spectrum baseline corrected?", this is `r paste0("[", paste(mir_quality_config$range_bc, collapse = ", "), "]")` cm$^{-1}$, the region to which spectra are clipped. To assess the relative contribution of water vapor, the range `r paste0("[", paste(mir_quality_config$range_wv, collapse = ", "), "]")` cm$^{-1}$ is considered. To assess the relative contribution of CO$_2$, CO$_2$ peaks in the range `r paste0("[", paste(mir_quality_config$range_co2, collapse = ", "), "]")` cm$^{-1}$ are considered. To assess the relative contribution of noise, the range `r paste0("[", paste(mir_quality_config$range_noise, collapse = ", "), "]")` cm$^{-1}$ is considered. 
+
+```{r pmirdp-fig-plot-4, fig.cap='(ref:pmirdp-fig-plot-4-caption)', out.width='100%'}
+knitr::include_graphics(tar_read(pmirdp_plot_4))
+```
+
+(ref:pmirdp-fig-plot-3-caption) Data quality assessment for the spectra in the 'pmird' database. For each validation step described in section [Validation of mid infrared spectra], the values of the defined variable to assess the quality of the spectra are shown for each spectrum. Spectra are listed in the order of their appearance in the 'pmird' database along the horizontal axis. Vertical lines represent the first and last spectrum in a dataset. Red horizontal lines are the dataset averages. Error bars represent standard errors for estimated contributions of water vapor and CO$_2$. (a) Intensity of the baseline of the spectra at 1400 cm$^{-1}$ ($\text{I}_{`r mir_quality_config[["is_baseline_corrected_wavenumber"]]`}({\mathbf{\text{X}_2}})$). This variable is used to identify baseline corrected spectra. The horizontal grey line denotes the threshold value ($\text{t}_\text{bc} =$`r mir_quality_config$is_baseline_corrected_threshold`) used to differentiate baseline corrected spectra (below the line) from non-baseline corrected spectra (above the line). All values along the vertical axis are multiplied by 1000. (b) Relative contribution of water vapor to the spectra ($\text{c}_\text{wv}$, `mir_water_vapor_contribution_relative` in table `mir_metadata`). (c) Relative contribution of CO$_2$ to the spectra ($\text{c}_{\text{CO}_2}$, `mir_co2_contribution_relative` in table `mir_metadata`). (d) Relative contribution of noise to the spectra ($\text{c}_\text{noise}$, `noise_level_relative` in table `mir_metadata`). All values along the vertical axis are log transformed. 
+
+```{r pmirdp-fig-plot-3, fig.cap='(ref:pmirdp-fig-plot-3-caption)', out.width='100%'}
+knitr::include_graphics(tar_read(pmirdp_plot_3))
+```
 
 
 # Usage Notes {-#usagenotes}
@@ -565,9 +571,15 @@ knitr::include_graphics(tar_read(pmirdp_plot_5))
 
 For studies involving privacy or safety controls on public access to the data, this section should describe in detail these controls, including how authors can apply to access the data, what criteria will be used to determine who may access the data, and any limitations on data use.-->
 
-The 'pmird' database can be downloaded from Zenodo [@Teickner.2025c]. The downloaded data contain a database backup and raw MIRS data files in folder `pmird_prepared_data`. The database backup needs to be imported to a 'MariaDB' instance, folder `pmird_prepared_data` can be stored at any location.
+The 'pmird' database can be downloaded from Zenodo [@Teickner.2025c]. The downloaded data contain a database backup (pmird-backup-2025-04-03.sql) and raw MIRS data files in folder `pmird_prepared_data`. The database backup needs to be imported to a 'MariaDB' server, folder `pmird_prepared_data` can be stored at any location. In a linux terminal, the downloaded database backup can be imported like so:
 
-Data can be accessed for example via 'MariaDB', or via R [@RCoreTeam.2020] with the 'RMariaDB' package [@Muller.2021a]. We also have developed an R package 'pmird' [@Teickner.2025d] which provides functions to access and manipulate the database. 
+```{bash, eval = FALSE, echo = TRUE}
+mysql -u<user> -p<password> pmird < pmird-backup-2025-04-03.sql
+```
+
+Here, `<user>` and `<password>` are the user and password for the 'MariaDB' server. More information in 'MariaDB' can be found here: <https://mariadb.com/>.
+
+Data can them be accessed for example via 'MariaDB', or via R [@RCoreTeam.2020] with the 'RMariaDB' package [@Muller.2021a]. We also have developed an R package 'pmird' [@Teickner.2025d] that provides functions to access and manipulate the database. The following use cases illustrate how to access the database with the 'pmird' package and what additional packages may be useful to analyze data exported from the database, in particular the spectra.
 
 
 ## Database access via the 'pmird' R package {-}
@@ -580,6 +592,7 @@ remotes::install_github("henningte/pmird")
 
 # installation of other packages
 install.packages("magrittr")
+install.packages("RMariaDB")
 remotes::install_github("henningte/ir")
 remotes::install_github("henningte/irpeat")
 
@@ -588,8 +601,13 @@ library(pmird)
 library(ir)
 library(irpeat)
 ```
+
+```{r, echo=FALSE, include=FALSE}
+library(irpeat)
+```
+
   
-Once the database is set up and runs in a 'MariaDB' instance, it can be accessed from within R, using the 'RMariaDB' package [@Muller.2021a]:
+Once the database is set up and runs in a 'MariaDB' instance (see previous subsection), it can be accessed from within R, using the 'RMariaDB' package [@Muller.2021a]:
 
 ```{r out-pmird-r-package-connect-db, eval=TRUE, echo=TRUE}
 # connect to database
@@ -612,7 +630,7 @@ dm_pmird <- pmird::pm_get_dm(con, learn_keys = TRUE)
 ```
 
 The option `learn_keys = TRUE` means that information on the primary and foreign key are added to the dm object.  
-A `dm` object is a representation of the entire database and allows comfortable manipulation of the database from within R (e.g. addition of new rows to tables, addition of new tables, querying for data) [@Schieferdecker.2022].
+A `dm` object is a representation of the entire database and allows comfortable manipulation of the database from within R (e.g. addition of new rows to tables, addition of new tables, data queries) [@Schieferdecker.2022].
 
 ## Use case: obtaining general information on the datasets contained in the 'pmird' database {-} 
 
@@ -625,7 +643,7 @@ pmird_datasets <-
   pmird::pm_get_table(.table_name = "datasets")
 ```
 
-With this, you can for example select studies for which they want to extract data from the 'pmird' database.
+This table can, for example, be used to select studies for which to extract data from the 'pmird' database.
 
 
 ## Use case: extracting data for a specific dataset from the 'pmird' database {-} 
@@ -647,23 +665,23 @@ d8 <-
   tibble::as_tibble()
 ```
 
-The resulting data frame (`d8`) contains information on all samples and measurements for the dataset with `id_dataset == 8`. `d8` does not yet contain any MIRS, but stores only information on the respective file paths to the downloaded MIRS files within the downloaded folder `pmird_prepared_data`.  
+The resulting data frame (`d8`) contains information on all samples and measurements for the dataset with `id_dataset == 8`. `d8` does not yet contain any spectra, but stores only information on the respective file paths to the downloaded spectra files within the downloaded folder `pmird_prepared_data`.  
   
-To load the MIRS, you can use the function `pmird::pmird_load_spectra()`. In addition, you have to specify via argument `directory` in which folder `pmird_prepared_data` is stored (on the computer used for this tutorial, this was `"data/derived_data/"`):   
+To load the spectra, you can use the function `pmird::pmird_load_spectra()`. In addition, you have to specify via argument `directory` in which folder `pmird_prepared_data` is stored (on the computer used for this tutorial, this was `"data/derived_data/"`):   
 
 ```{r out-pmird-r-package-pm-load-spectra, eval=TRUE, echo=TRUE, warning=FALSE}
 # load the spectra
 d8 <- pmird::pm_load_spectra(d8, directory = "data/derived_data/")
 ```
 
-`pmird_load_spectra()` is a wrapper function around functions from the package 'ir' [@Teickner.2022e] which in turn are wrappers around `read.spc()` [@Beleites.2021] and `read.csv()`. `pmird_load_spectra()` therefore can load MIRS both saved as spc and csv files. `pmird_load_spectra()` also converts `d8` into an object of class `ir` from the 'ir' package. 'ir' provides functions for spectral preprocessing and manipulation [@Teickner.2022e] and is compatible with the 'irpeat' package which provides functions to analyze peat spectra and spectral prediction models to predict various peat properties from MIRS [@Teickner.2022d].
+`pm_load_spectra()` is a wrapper function around functions from the package 'ir' [@Teickner.2022e] which in turn are wrappers around `read.spc()` [@Beleites.2021] and `read.csv()`. `pm_load_spectra()` therefore can load spectra both saved as spc and csv files. `pm_load_spectra()` also converts `d8` into an object of class `ir` from the 'ir' package. 'ir' provides functions for spectral preprocessing and manipulation [@Teickner.2022e] and is compatible with the 'irpeat' package which provides functions to analyze peat MIRS and spectral prediction models to predict peat properties from MIRS [@Teickner.2022d].
 
 
 ## Use case: spectral preprocessing workflow {-}
 
 Here, we show an example workflow to preprocess the spectra in `d8` with the R package 'ir'. The workflow assumes high quality MIRS and therefore does not correct noise, water vapor or CO$_2$ artifacts. The workflow has the following steps:
 
-1. Linear interpolation ('ir' complains even about small numeric deviations. Linear interpolation avoids these warnings).
+1. Linear interpolation (When specifying wavenumbers, for example during clipping, 'ir' warns about any numeric deviations. Linear interpolation avoids these warnings).
 2. Clipping to the wavenumber range of interest.
 3. Baseline correction using a convex hull [@Beleites.2021].
 4. Normalization by dividing all intensity values by the sum of all intensity values.
@@ -724,19 +742,34 @@ plot(d8_combined) +
 
 ## Use case: computation of humification indices and spectral prediction models {-}
 
-Here, we show how the 'ir' object can be used to compute humification indices [@Niemeyer.1992; @Beer.2008; @Biester.2014] with 'irpeat':
+Here, we show how the 'ir' object can be used to compute humification indices [@Niemeyer.1992; @Beer.2008; @Broder.2012] with 'irpeat':
 
 ```{r out-pmird-r-package-humification-indices-1, eval=TRUE, echo=TRUE}
 # compute a humification index
 d8_preprocessed <-
   d8_preprocessed |>
   irpeat::irp_hi(x1 = 1630, x2 = 1090)
+
+# show some values
+head(d8_preprocessed$hi_1630_1090, 3)
+```
+
+The 'irpeat' package contains, for example, a prediction model for the electron accepting capacity [@Teickner.2022] that can be applied to raw MIRS (for further details, please see the documentation of the 'irpeat' package):
+
+```{r, echo=TRUE, warning=FALSE}
+d8_eac <- 
+  d8 |>
+  dplyr::filter(! ir::ir_identify_empty_spectra(d8)) |>
+  irpeat::irp_eac_1(do_summary = TRUE)
+
+# show some values
+head(d8_eac$eac, 3)
 ```
 
 
 ## Use case: Handling units and measurement errors {-}
 
-The R package 'qauntities' [@Pebesma.2016; @Ucar.2018] can be used to add units and measurement errors to measured variables from the 'pmird' database. The 'pmird' R package allows batch unit and measurement error assignment to make working with quantities straightforward:
+The R package 'qauntities' [@Pebesma.2016; @Ucar.2018] can be used to add units and measurement errors to measured variables from the 'pmird' database. The 'pmird' R package allows batch unit and measurement error assignment:
 
 ```{r out-pmird-r-package-workflow-quantities-1, eval=TRUE, echo=TRUE}
 # add information on units and errors with the 'quantities' package
@@ -744,14 +777,14 @@ d8 <-
   d8 |>
   pmird::pm_add_quantities()
 
-# show an example
-head(d8$N)
+# show some values
+head(d8$N, 3)
 ```
 
 
 ## Use case: Generating data citations {-}
 
-Whoever uses data from the 'pmird' database must cite in addition to the database the original data sources of the datasets used. To make this straightforward, the 'pmird' R package contains the function `pm_get_citations()` to generate such a citation list for any extracted data subset:
+Whoever uses data from the 'pmird' database must cite, in addition to the database, the original data sources for the used datasets. To make this straightforward, the 'pmird' R package contains the function `pm_get_citations()` to generate such a citation list for any extracted data subset:
 
 ```{r, out-pmird-r-package-workflow-citations-1, eval=TRUE, echo=TRUE}
 # collect all citations for `d8`:
@@ -766,23 +799,21 @@ d8_citations <-
 RMariaDB::dbDisconnect(con)
 ```
 
-The function takes column `id_measurement` of the extracted data and collects citations for all relevant data sources from the database. The results are exported to a bibtex file which is defined via argument `file`. This file can be imported to literature reference software. `RMariaDB::dbDisconnect(con)` closes the connection to the database. In this case, since the data have not been previously published, the created bibtex file is empty.
+The function takes column `id_measurement` of the extracted data and collects citations for all relevant data sources from the database. The results are exported to a bibtex file which is defined via argument `file`. This file can be imported to literature reference software. In this case, since the data have not been previously published, the created bibtex file is empty. `RMariaDB::dbDisconnect(con)` closes the connection to the database, as this is the final use case presented here. 
 
 
 # Code availability {-#codeavailability}
 
 <!--For all studies using custom code in the generation or processing of datasets, a statement must be included under the heading "Code availability", indicating whether and how the code can be accessed, including any restrictions to access. This section should also include information on the versions of any software used, if relevant, and any specific variables or parameters used to generate, test, or process the current dataset.-->
 
-All code used to create the 'pmird' database is available within the repository of the 'pmird' database [@Teickner.2025c]. In particular, the repository contains (1) a Dockerfile which can be used to create the Docker images and containers [@Merkel.2014] which encapsulate the computing environment used for the database creation; and (2) all Rmarkdown [@Allaire.2018] scripts with which the 'pmird' database was initialized and with which all the datasets were imported into the database. Detailed information about how these scripts work together can be found in the README file in the repository.  
-The underlying data cannot be made available because some of them contain personal data (e.g. names). These data files are not included in the repository and therefore the database cannot be fully reproduced from scratch.  
-The 'pmird' R package is available from Zenodo [@Teickner.2025d]. All R packages that were used during the creation of the 'pmird' database and that were used for the development of the 'pmird' package are listed in the `renv.lock` file of the respective repositories. Code to reproduce this manuscript is available from [---todo:ref], including a Dockerfile and renv.lock file to recreate software dependencies with Docker [@Merkel.2014] and the R package 'renv' [@Ushey.2019].
+All code used to create the 'pmird' database is available within the repository of the 'pmird' database [@Teickner.2025c]. Detailed information about how these scripts work together can be found in the README file in the repository. The underlying data cannot be made available because some of them contain personal data. Therefore, the database cannot be reproduced from scratch. The 'pmird' R package is available from Zenodo [@Teickner.2025d]. Code to reproduce this manuscript is available from [---todo:ref].
 
 
 # Acknowledgements {-}
 
 <!--Acknowledgements should be brief, and should not include thanks to anonymous referees and editors, or effusive comments. Grant or contribution numbers may be acknowledged.-->
 
-This study was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant no. KN 929/23-1 to Klaus-Holger Knorr and grant no. PE 1632/18-1 to Edzer Pebesma.
+This study was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) grant no. KN 929/23-1 to Klaus-Holger Knorr and grant no. PE 1632/18-1 to Edzer Pebesma. We thank Chuanyu Gao for measuring electron accepting and donating capacities that were obtained from @Teickner.2022. For dataset-specific acknowledgements, please refer to the information on acknowledgements stored in the 'pmird' database. 
 
 
 # Author contributions statement {-}
@@ -790,7 +821,7 @@ This study was funded by the Deutsche Forschungsgemeinschaft (DFG, German Resear
 <!--Must include all authors, identified by initials, for example:
 A.A. conceived the experiment(s), A.A. and B.A. conducted the experiment(s), C.A. and D.A. analysed the results. All authors reviewed the manuscript.-->
 
-HT: Conceptualization, methodology, software, validation, formal analysis, investigationn, visualization, writing - original draft. KHK: supervision, funding acquisition. EP: supervision, funding acquisition. All authors: data curation, writing - review & editing
+HT: Conceptualization, methodology, software, validation, formal analysis, investigation, visualization, writing - original draft. KHK: supervision, funding acquisition. All authors: data curation, writing - review & editing
 
 
 # Competing interests {-}
@@ -817,6 +848,6 @@ The authors declare no competing interests.
 
 ---
 abstract: |
-  \noindent Systematic collections of peat mid infrared spectra and other peat properties are scarce, but useful to understand peat chemistry and develop spectral prediction models. The Peatland Mid Infrared Spectra Database ('pmird') stores `r sum(!is.na(pmirdp_data_overview |> dplyr::filter(!duplicated(id_measurement)) |> dplyr::pull(mirs_file)))` mid infrared spectra of peat, peat-forming vegetation, and dissolved organic matter, together with measurements on other peat properties that were collected from available, previously published or unpublished, studies. Most of the peat samples are from northern bogs, whereas tropical peat and fen peat is underrepresented. Due to its origin, the data and data quality are heterogeneous. The data were supplemented with metadata on sample origin, sample processing, measurements, and quality indicators on whether spectra are baseline corrected or not and on the relative contribution of water vapor, carbon dioxide, and noise to the spectra. The data can be accessed from a MariaDB server and with the R package 'pmird'. The 'pmird' database can in particular be used to analyze peat properties at scale, to develop and test spectral prediction models, and to develop data and metadata standards.  
+  \noindent Systematic collections of peat mid infrared spectra and other peat properties are scarce, but useful to understand peat chemistry and develop spectral prediction models. The Peatland Mid Infrared Database ('pmird') stores `r sum(!is.na(pmirdp_data_overview |> dplyr::filter(!duplicated(id_measurement)) |> dplyr::pull(mirs_file)))` mid infrared spectra of peat, peat-forming vegetation, and dissolved organic matter, together with measurements on other peat properties that were collated from previous studies. Most of the peat samples are from northern bogs, whereas southern or tropical peat and fen peat is underrepresented. The data are supplemented with metadata on sample origin, sample processing, measurements, and quality indicators on whether spectra are baseline corrected or not and on the relative contribution of water vapor, carbon dioxide, and noise to the spectra. The data can be accessed from a MariaDB server and with the R package 'pmird'. The 'pmird' database can in particular be used to analyze peat properties, to develop and test spectral prediction models, and to develop data and metadata standards.  
   <!--This is a manuscript template for Data Descriptor submissions to \emph{Scientific Data} (\href{http://www.nature.com/scientificdata}{http://www.nature.com/scientificdata}). The abstract must be no longer than 170 words, and should succinctly describe the study, the assay(s) performed, the resulting data, and the reuse potential, but should not make any claims regarding new scientific findings. No references are allowed in this section.-->
 ---

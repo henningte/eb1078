@@ -95,11 +95,16 @@ pmirdp_make_data_overview_2 <- function(x) {
         ),
       mirs_mode =
         if(all(is.na(mir_mode))) {
-          ""
+          "-"
         } else {
-          mir_mode |>
+          dplyr::case_when(
+            mir_mode == "atr_ftir" ~ "ATR-FTIR",
+            mir_mode == "absorbance_ftir" ~ "Absorbance-FTIR",
+            TRUE ~ NA_character_
+          ) |>
             na.omit() |>
-            unique() 
+            unique() |>
+            paste(collapse = ", ")
         },
       references = unique(reference_publication), 
       .groups = "drop"
@@ -114,12 +119,6 @@ pmirdp_make_data_overview_2 <- function(x) {
         }) |>
         stringr::str_replace(pattern = "id_macrofossil_type", replacement = "macrofossils") %>%
         stringr::str_replace_all(pattern = "\\_", replacement = "\\\\_"),
-      mirs_mode =
-        dplyr::case_when(
-          mirs_mode == "atr_ftir" ~ "ATR-FTIR",
-          mirs_mode == "absorbance_ftir" ~ "Absorbance-FTIR",
-          TRUE ~ "-"
-        ),
       references =
         {
           purrr::map(references, function(x) {

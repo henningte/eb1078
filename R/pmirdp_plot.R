@@ -304,8 +304,31 @@ pmirdp_make_plot_4 <- function(file_plot = "figures/pdpmp_plot_4.pdf") {
   p_mir_quality_config_ranges_spectrum_labels <-
     c("Is~a~spectrum~baseline~corrected*'?'", "Relative~contribution~of~water~vapor", "Relative~contribution~of~CO[2]", "Relative~contribution~of~noise") %>% purrr::map(function(x) label_parsed(x)[[1]][[1]])
   
+  # get a sample spectrum
+  con <-
+    RMariaDB::dbConnect(
+      drv = RMariaDB::MariaDB(),
+      dbname = "pmird",
+      default.file = "~/my.cnf",
+      groups = "rs-dbi"
+    )
+  on.exit(RMariaDB::dbDisconnect(con))
+  
+  dm_pmird <-
+    pmird::pm_get_dm(con, learn_keys = TRUE)
+  
+  res_spectrum <- 
+    dm_pmird |>
+    dm::dm_zoom_to("samples") |>
+    dm::filter(id_dataset == 13 & sample_label == "peatbog_16_35_40") |>
+    dm::left_join("data_to_samples", by = "id_sample") |>
+    dm::left_join(data, by = c("id_measurement")) |>
+    dm::pull_tbl() |>
+    tibble::as_tibble() |>
+    pmird::pm_load_spectra(directory = "data/derived_data/")
+  
   res_plot <-
-    mir_quality_config$mir_co2_reference_spectrum_raw %>%
+    res_spectrum %>%
     dplyr::select(spectra) %>%
     tidyr::unnest(cols = "spectra") %>%
     ggplot() +

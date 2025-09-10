@@ -12,3 +12,6 @@ renv
 data/derived_data/pmird_prepared_data
 d8_citations.bib
 _targets
+private
+peer_review
+extra

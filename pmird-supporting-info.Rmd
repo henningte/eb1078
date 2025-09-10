@@ -14,6 +14,188 @@ output:
     #latex_engine: xelatex
     keep_tex: true
     number_sections: false
+authors:
+  - name: Henning Teickner
+    affil: "1,2,*"
+    email:
+  - name: Svenja Agethen
+    affil: "1"
+    email:
+  - name: Sina Berger
+    affil: "3"
+    email:
+  - name: Rieke Inga Boelsen
+    affil: "4"
+    email:
+  - name: Werner Borken
+    affil: "5"
+    email:
+  - name: Luca Bragazza
+    affil: "6"
+    email:
+  - name: Tanja Broder
+    affil: "1"
+    email:
+  - name: Florentino B. De La Cruz
+    affil: "7"
+    email:
+  - name: Andrei-Cosmin Diaconu
+    affil: "8"
+    email:
+  - name: Nancy B. Dise
+    affil: "9"
+    email:
+  - name: Simon Drollinger
+    affil: "10"
+    email:
+  - name: Cristian Estop-Aragonés
+    affil: "1"
+    email:
+  - name: Mariusz Gałka
+    affil: "11"
+    email:
+  - name: Magalí  Martí 
+    affil: "12,13"
+    email:
+  - name: Stephan Glatzel
+    affil: "14"
+    email:
+  - name: Jessica Groß
+    affil: "1"
+    email:
+  - name: Lorna Harris
+    affil: "15"
+    email:
+  - name: Liam Heffernan
+    affil: "16"
+    email:
+  - name: Suzanne B. Hodgkins
+    affil: "17"
+    email:
+  - name: Annkathrin Hömberg-Grandjean 
+    affil: "1"
+    email:
+  - name: Helga Hoppe
+    affil: "1"
+    email:
+  - name: Wolfgang Knierzinger
+    affil: "18"
+    email:
+  - name: Haojie Liu
+    affil: "19"
+    email:
+  - name: Paul J.H. Mathijssen
+    affil: "1,20"
+    email:
+  - name: Christopher Mollmann
+    affil: "1"
+    email:
+  - name: Wiebke Schuster
+    affil: "21"
+    email:
+  - name: Lisa Närtker
+    affil: "1"
+    email:
+  - name: David Olefeldt
+    affil: "22"
+    email:
+  - name: Verónica Pancotto
+    affil: "23,24"
+    email:
+  - name: Nicolas Pelletier
+    affil: "25"
+    email:
+  - name: Hendrik Reuter
+    affil: "26"
+    email:
+  - name: Bjorn Robroek
+    affil: "27,28"
+    email:
+  - name: Julie Talbot
+    affil: "29"
+    email:
+  - name: Lauren Thompson
+    affil: "30,31"
+    email:
+  - name: Fred Worrall
+    affil: "32"
+    email:
+  - name: Zhi-Guo Yu
+    affil: "33"
+    email:
+  - name: Klaus-Holger Knorr
+    affil: "1"
+    email:
+#
+affiliations:
+  - number: "1"
+    text: "Ecohydrology & Biogeochemistry Group, Institute of Landscape Ecology, University of Münster, Germany"
+  - number: "2"
+    text: "Spatiotemporal Modelling Lab, Institute for Geoinformatics, University of Münster, Germany"
+  - number: "3"
+    text: "Pädagogische Hochschule St.Gallen (PHSG), Notkerstrasse 27, 9000 St.Gallen, Schweiz"
+  - number: "4"
+    text: "Albert-Ludwigs-Universität Freiburg "
+  - number: "5"
+    text: "Soil Ecology, University of Bayreuth, Dr.-Hans-Frisch-Str. 1-3, 95448 Bayreuth, Germany "
+  - number: "6"
+    text: "Agroscope, Field-Crop Systems and Plant Nutrition, Nyon, Switzerland "
+  - number: "7"
+    text: "University of North Florida: Jacksonville, Florida, US "
+  - number: "8"
+    text: "Department of Geology, Babeş-Bolyai University, Kogalniceanu, 1, 400084, Cluj-Napoca, Romania "
+  - number: "9"
+    text: "UK Centre for Ecology & Hydrology Bush Estate, Penicuik, Edinburgh EH26 0QB, United Kingdom"
+  - number: "10"
+    text: "Bioclimatology, University of Göttingen, Göttingen, Germany "
+  - number: "11"
+    text: "University of Lodz, Faculty of Biology and Environmental Protection, Department of Biogeography, Paleoecology and Nature Conservation, Banacha 1/3, 90-237 Łodz, Poland"
+  - number: "12"
+    text: "Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden"
+  - number: "13"
+    text: "Department of Thematic Studies-Environmental Change, Linköping University, Linköping, Sweden "
+  - number: "14"
+    text: "Department of Geography and Regional Research, Geoecology, Faculty of Earth Sciences, Geography and Astronomy, University of Vienna, Vienna, Austria "
+  - number: "15"
+    text: "Department of Renewable Resources, University of Alberta, Edmonton, AB, T6G 2G7, Canada"
+  - number: "16"
+    text: "Department of Earth Sciences, Earth and Climate Cluster, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands"
+  - number: "17"
+    text: "Department of Microbiology, The Ohio State University, Columbus, OH 43210, USA"
+  - number: "18"
+    text: "Federal Agency for Water Management, Institute for Land and Water Management Research, Petzenkirchen, 3252, Austria "
+  - number: "19"
+    text: "Faculty of Agricultural and Environmental Sciences, University of Rostock, Justus-von-Liebig-Weg 6, 18059 Rostock, Germany "
+  - number: "20"
+    text: "Climate Resilience, Wageningen Environmental Research, Wageningen University & Research, PO Box 47, NL-6700 AA, Wageningen, the Netherland"
+  - number: "21"
+    text: "Stiftung Naturschutz Schleswig-Holstein, Eschenbrook 4, 24113 Molfsee, Germany"
+  - number: "22"
+    text: "Centro Austral de Investigaciones Científicas (CADIC), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Ushuaia, Tierra del Fuego, Argentina "
+  - number: "23"
+    text: "Instituto de Ciencias Polares, Ambiente y Recursos Naturales (ICPA), Universidad Nacional de Tierra del Fuego (UNTDF), Ushuaia, Tierra del Fuego, Argentina "
+  - number: "24"
+    text: "Département de géographie, Université de Montréal, Canada "
+  - number: "25"
+    text: "Department of Ecohydrology and Biogeochemistry, Leibniz Institute of Freshwater Ecology and Inland Fisheries, Berlin, Germany "
+  - number: "26"
+    text: "Department of Ecology, Radboud Institute for Biological and Environmental Sciences, Faculty of Science, Radboud University Nijmegen, 6525 AJ Nijmegen, The Netherlands"
+  - number: "27"
+    text: "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, SO17 1BJ, UK"
+  - number: "28"
+    text: "Department of Thematic Studies, Environmental Change, Linköping University, 58183 Linköping, Sweden"
+  - number: "29"
+    text: "Département de Géographie, Université de Montréal, Campus MIL, 1375 Avenue Thérèse Lavoie-Roux, Montréal, Québec, H2V 0B3, Canada "
+  - number: "30"
+    text: "University of Alberta, Department of Renewable Resources, South Academic Building 348D, Edmonton, AB, T6G 2G7 "
+  - number: "31"
+    text: "Hatfield Consultants, 1228 Kensington Rd NW Unit 305, Calgary, AB T2N 3P7 "
+  - number: "32"
+    text: "Department of Earth Sciences, University of Durham, Durham, DH1 3LE, UK "
+  - number: "33"
+    text: "Ecohydrology Research Group, Dept. Hydrology & Water Resources, Nanjing University of Information Science and Technology, Ningliu Road. 219, 210000 Nanjing"
+  - number: "*"
+    text: "corresponding author(s): Henning Teickner (henning.teickner@uni-muenster.de)"
 fontsize: 12pt
 link-citations: true
 header-includes:
@@ -42,6 +224,12 @@ library(pmird)
 options(tinytex.clean = FALSE) #---note: to not remove aux files (needed for correct cross-referencing between documents)
 ```
 
+```{r, results='asis'}
+cat(pmirdp_make_author_list(rmarkdown::metadata$authors))
+cat("  \n")
+cat("  \n")
+cat(pmirdp_make_affiliation_list(rmarkdown::metadata$affiliations))
+```
 
 # Attributes in the 'pmird' database
 
@@ -127,7 +315,7 @@ pmird_attributes %>%
 
 (ref:tab-pmirdp-sup-example-methods-d8-caption) Method and method steps description for dataset 8 in the 'pmird' database.
 
-```{r pmirdp-sup-example-methods-d8, tab.cap='(ref:tab-pmirdp-sup-example-methods-d8-caption)'}
+```{r pmirdp-sup-example-methods-d8, tab.cap='(ref:tab-pmirdp-sup-example-methods-d8-caption)', results='asis'}
 # connect to database
 con <-
   RMariaDB::dbConnect(
@@ -142,38 +330,46 @@ dm_pmird <-
 
 # general dataset characteristics
 d_example_methods <-
-  dm_pmird %>%
-  dm::dm_zoom_to(datasets) %>%
-  dplyr::filter(id_dataset == 8) %>%
-  dm::left_join(methods, by = "id_method") %>%
-  dm::left_join(methods_to_method_steps, by = "id_method") %>%
-  dm::left_join(method_steps, by = "id_method_step") %>%
-  dm::pull_tbl() %>%
-  tibble::as_tibble() %>%
-  dplyr::select(id_method, sampling_description, id_method_step, description) %>%
+  dm_pmird |>
+  dm::dm_zoom_to(datasets) |>
+  dplyr::filter(id_dataset == 8) |>
+  dm::left_join(methods, by = "id_method") |>
+  dm::left_join(methods_to_method_steps, by = "id_method") |>
+  dm::left_join(method_steps, by = "id_method_step") |>
+  dm::pull_tbl() |>
+  tibble::as_tibble() |>
+  dplyr::select(id_method, sampling_description, id_method_step, description) |>
   dplyr::mutate(
     sampling_description =
-      sampling_description %>%
-      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") %>%
-      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") %>%
-      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") %>%
-      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude"),
+      sampling_description |>
+      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") |>
+      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") |>
+      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") |>
+      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude") |>
+      stringr::str_replace_all(pattern = "1 m", replacement = "1\\\\,m") |> 
+      stringr::str_replace_all(pattern = "0.015 mol L", replacement = "0.015\\\\,mol\\\\,L") |>
+      stringr::str_replace_all(pattern = "2.5 mL", replacement = "2.5\\\\,mL") |> 
+      stringr::str_replace_all(pattern = "\\[@Teickner\\.2020b\\]", replacement = "Teickner and Knorr (2020)"),
     description =
-      description %>%
-      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") %>%
-      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") %>%
-      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") %>%
-      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude")
-  ) %>%
+      description |>
+      stringr::str_replace_all(pattern = "_Sphagna_", replacement = "\\\\textit{Sphagna}") |>
+      stringr::str_replace_all(pattern = "sampling_longitude", replacement = "sampling\\\\_longitude") |>
+      stringr::str_replace_all(pattern = "sampling_latitude", replacement = "sampling\\\\_latitude") |>
+      stringr::str_replace_all(pattern = "sampling_latitud", replacement = "sampling\\\\_latitude") |>
+      stringr::str_replace_all(pattern = "1 m", replacement = "1\\\\,m") |> 
+      stringr::str_replace_all(pattern = "0.015 mol L", replacement = "0.015\\\\,mol\\\\,L") |>
+      stringr::str_replace_all(pattern = "2.5 mL", replacement = "2.5\\\\,mL") |> 
+      stringr::str_replace_all(pattern = "\\[@Teickner\\.2020b\\]", replacement = "Teickner and Knorr (2020)")
+  ) |>
   dplyr::select(-sampling_description)
 
 # disconnect
 RMariaDB::dbDisconnect(conn = con)
 
-d_example_methods %>%
+d_example_methods |>
   dplyr::mutate(
     description = 
-      description |> 
+      description |>
       stringr::str_split(pattern = "\\n\\n")
   ) |>
   tidyr::unnest(description) |>
@@ -195,9 +391,9 @@ d_example_methods %>%
     longtable = TRUE,
     escape = FALSE, 
     col.names =c("id\\_method", "id\\_method\\_step", "description"), #, "sampling\\_description"
-  ) %>%
-  # kableExtra::column_spec(column = match("sampling_description", colnames(d_example_methods)), width = "35em") %>%
-  kableExtra::column_spec(column = match(c("description"), colnames(d_example_methods)), width = "25em") %>%
+  ) |>
+  # kableExtra::column_spec(column = match("sampling_description", colnames(d_example_methods)), width = "35em") |>
+  kableExtra::column_spec(column = match(c("description"), colnames(d_example_methods)), width = "25em") |>
   kableExtra::kable_styling(
     latex_options = c("repeat_header", "hold_position"),
     repeat_header_method = "replace",

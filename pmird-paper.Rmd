@@ -806,7 +806,7 @@ The function takes column `id_measurement` of the extracted data and collects ci
 
 <!--For all studies using custom code in the generation or processing of datasets, a statement must be included under the heading "Code availability", indicating whether and how the code can be accessed, including any restrictions to access. This section should also include information on the versions of any software used, if relevant, and any specific variables or parameters used to generate, test, or process the current dataset.-->
 
-All code used to create the 'pmird' database is available within the repository of the 'pmird' database [@Teickner.2025c]. Detailed information about how these scripts work together can be found in the README file in the repository. The underlying data cannot be made available because some of them contain personal data. Therefore, the database cannot be reproduced from scratch. The 'pmird' R package is available from Zenodo [@Teickner.2025d]. Code to reproduce this manuscript is available from [---todo:ref].
+All code used to create the 'pmird' database is available within the repository of the 'pmird' database [@Teickner.2025c]. Detailed information about how these scripts work together can be found in the README file in the repository. The underlying data cannot be made available because some of them contain personal data. Therefore, the database cannot be reproduced from scratch. The 'pmird' R package is available from Zenodo [@Teickner.2025d]. Code to reproduce this manuscript is available from [@Teickner.2025j].
 
 
 # Acknowledgements {-}

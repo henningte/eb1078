@@ -341,7 +341,7 @@ pmirdp_make_plot_4 <- function(file_plot = "figures/pdpmp_plot_4.pdf") {
     theme_classic() +
     labs(x = "Wavenumber (cm<sup>-1</sup>)", y = "Intensity (-)") +
     scale_fill_manual(
-      values = scales::hue_pal()(4), 
+      values = c("grey", "lightsteelblue", "salmon", "grey20"),# scales::hue_pal()(4), 
       labels = p_mir_quality_config_ranges_spectrum_labels
     ) +
     guides(
@@ -420,13 +420,14 @@ pmirdp_make_plot_5 <- function(file_plot = "figures/pdpmp_plot_5.pdf") {
       res <- d_mir_quality_config_spectra[i, ]
       plot(res$spectra[[1]]) +
         geom_path(aes(x = x, y = y, color = as.character(measurement_device_source))) +
+        scale_color_manual(values = c("grey", "grey10")) +
         theme_classic() +
         labs(
           y = "Absorbance (-)", 
           x = "Wavenumber (cm<sup>-1</sup>)", 
           title = res$title[[1]][[1]]
         ) +
-        guides(color = guide_legend(title = "Device", ncol = 1L)) +
+        guides(color = guide_legend(title = "Device", ncol = 1L, override.aes = list(linewidth = 2))) +
         theme(
           axis.title.x = ggtext::element_markdown(),
           plot.title = ggtext::element_markdown(),

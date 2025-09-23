@@ -97,31 +97,34 @@ authors:
     affil: "1"
     email:
   - name: David Olefeldt
-    affil: "22"
+    affil: "15"
     email:
   - name: Verónica Pancotto
-    affil: "23,24"
+    affil: "22,23"
     email:
   - name: Nicolas Pelletier
-    affil: "25"
+    affil: "24"
     email:
   - name: Hendrik Reuter
-    affil: "26"
+    affil: "25"
     email:
   - name: Bjorn Robroek
-    affil: "27,28"
+    affil: "26,27"
+    email:
+  - name: Bosse Svensson
+    affil: "13"
     email:
   - name: Julie Talbot
-    affil: "29"
+    affil: "28"
     email:
   - name: Lauren Thompson
-    affil: "30,31"
+    affil: "29,30"
     email:
   - name: Fred Worrall
-    affil: "32"
+    affil: "31"
     email:
   - name: Zhi-Guo Yu
-    affil: "33"
+    affil: "32"
     email:
   - name: Klaus-Holger Knorr
     affil: "1"
@@ -153,7 +156,7 @@ affiliations:
   - number: "12"
     text: "Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden"
   - number: "13"
-    text: "Department of Thematic Studies-Environmental Change, Linköping University, Linköping, Sweden "
+    text: "Department of Thematic Studies, Environmental Change, Linköping University, 58183 Linköping, Sweden"
   - number: "14"
     text: "Department of Geography and Regional Research, Geoecology, Faculty of Earth Sciences, Geography and Astronomy, University of Vienna, Vienna, Austria "
   - number: "15"
@@ -183,16 +186,14 @@ affiliations:
   - number: "27"
     text: "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, SO17 1BJ, UK"
   - number: "28"
-    text: "Department of Thematic Studies, Environmental Change, Linköping University, 58183 Linköping, Sweden"
-  - number: "29"
     text: "Département de Géographie, Université de Montréal, Campus MIL, 1375 Avenue Thérèse Lavoie-Roux, Montréal, Québec, H2V 0B3, Canada "
-  - number: "30"
+  - number: "29"
     text: "University of Alberta, Department of Renewable Resources, South Academic Building 348D, Edmonton, AB, T6G 2G7 "
-  - number: "31"
+  - number: "30"
     text: "Hatfield Consultants, 1228 Kensington Rd NW Unit 305, Calgary, AB T2N 3P7 "
-  - number: "32"
+  - number: "31"
     text: "Department of Earth Sciences, University of Durham, Durham, DH1 3LE, UK "
-  - number: "33"
+  - number: "32"
     text: "Ecohydrology Research Group, Dept. Hydrology & Water Resources, Nanjing University of Information Science and Technology, Ningliu Road. 219, 210000 Nanjing"
   - number: "*"
     text: "corresponding author(s): Henning Teickner (henning.teickner@uni-muenster.de)"

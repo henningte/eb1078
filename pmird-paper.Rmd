@@ -126,9 +126,9 @@ affiliations:
   - number: "2"
     text: "Spatiotemporal Modelling Lab, Institute for Geoinformatics, University of Münster, Germany"
   - number: "3"
-    text: "Pädagogische Hochschule St.Gallen (PHSG), Notkerstrasse 27, 9000 St.Gallen, Schweiz"
+    text: "Pädagogische Hochschule St.Gallen (PHSG), Notkerstrasse 27, 9000 St.Gallen, Switzerland"
   - number: "4"
-    text: "Albert-Ludwigs-Universität Freiburg "
+    text: "Albert-Ludwigs-Universität Freiburg, Germany"
   - number: "5"
     text: "Soil Ecology, University of Bayreuth, Dr.-Hans-Frisch-Str. 1-3, 95448 Bayreuth, Germany "
   - number: "6"
@@ -774,6 +774,10 @@ RMariaDB::dbDisconnect(con)
 
 The function takes column `id_measurement` of the extracted data and collects citations for all relevant data sources from the database. The results are exported to a bibtex file which is defined via argument `file`. This file can be imported to literature reference software. In this case, since the data have not been previously published, the created bibtex file is empty. `RMariaDB::dbDisconnect(con)` closes the connection to the database, as this is the final use case presented here. 
 
+
+# Data availability {-#dataavailability}
+
+The Peatland Mid Infrared Database is available from Zenodo (https://doi.org/10.5281/zenodo.17092587) [@Teickner.2025c].
 
 # Code availability {-#codeavailability}
 

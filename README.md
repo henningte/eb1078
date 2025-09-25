@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Compendium of R code and data for “pmird: Peatland Mid Infrared Database 1.0.0”
+## Compendium of R code and data for “Peatland Mid-Infrared Database 1.0.0”
 
 This repository contains the data and code for our manuscript:
 
@@ -9,14 +9,14 @@ This repository contains the data and code for our manuscript:
 > Bragazza, L., Broder, T., De La Cruz, F. B., Diaconu, A.-C., Dise, N.
 > B., Drollinger, S., Estop-Aragonés, C., Gałka, M., Martí, M., Glatzel,
 > S., Groß, J., Harris, L., Heffernan, L., Hodgkins, S. B., … Knorr,
-> K.-H. (unpublished). Peatland mid infrared database (1.0.0).
+> K.-H. (unpublished). Peatland mid-infrared database (1.0.0).
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Henning Teickner (2025). Compendium of R code and data for pmird:
-> Peatland Mid Infrared Database 1.0.0”. Accessed 10 Sep 2025.
+> Henning Teickner (2025). Compendium of R code and data for “Peatland
+> Mid-Infrared Database 1.0.0”. Accessed 25 Sep 2025.
 > <https://github.com/henningte/eb1078>
 
 ### Contents
@@ -402,8 +402,8 @@ Bogs of Southern Patagonia.” *Science of The Total Environment* 810
 <div id="ref-Teickner.2025c" class="csl-entry">
 
 Teickner, Henning, Svenja Agethen, Sina Berger, Rieke Inga Boelsen,
-Werner Borken, Luca Bragazza, Tanja Broder, et al. 2025. “Peatland Mid
-Infrared Database (1.0.0).” Zenodo.
+Werner Borken, Luca Bragazza, Tanja Broder, et al. 2025. “Peatland
+Mid-Infrared Database (1.0.0).” Zenodo.
 <https://doi.org/10.5281/zenodo.17092587>.
 
 </div>

@@ -220,7 +220,7 @@ pmirdp_make_plot_3 <- function(x, file_plot = "figures/pdpmp_plot_3.pdf") {
         theme_classic() +
         labs(
           title = label_parsed(unique(res$variable_pretty))[[1]][[1]], 
-          y = element_blank(), 
+          y = "Value (a.u.)", 
           x = "Spectrum number"
         )
       
@@ -339,7 +339,7 @@ pmirdp_make_plot_4 <- function(file_plot = "figures/pdpmp_plot_4.pdf") {
     ) +
     geom_path(aes(x = x, y = y)) +
     theme_classic() +
-    labs(x = "Wavenumber (cm<sup>-1</sup>)", y = "Intensity (-)") +
+    labs(x = "Wavenumber (cm<sup>-1</sup>)", y = "Intensity (a.u.)") +
     scale_fill_manual(
       values = c("grey", "lightsteelblue", "salmon", "grey20"),# scales::hue_pal()(4), 
       labels = p_mir_quality_config_ranges_spectrum_labels
@@ -423,7 +423,7 @@ pmirdp_make_plot_5 <- function(file_plot = "figures/pdpmp_plot_5.pdf") {
         scale_color_manual(values = c("grey", "grey10")) +
         theme_classic() +
         labs(
-          y = "Absorbance (-)", 
+          y = "Absorbance (a.u.)", 
           x = "Wavenumber (cm<sup>-1</sup>)", 
           title = res$title[[1]][[1]]
         ) +

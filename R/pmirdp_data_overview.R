@@ -41,7 +41,7 @@ pmirdp_make_data_overview_2 <- function(x) {
   target_peat_property <- setdiff(target_peat_property, c(target_peat_property[stringr::str_detect(target_peat_property, pattern = "_err$")], c("comments_measurements", "id_measurement", "mirs_file")))
   
   res <- 
-    x |>
+    x %>%
     dplyr::group_by(id_dataset) %>%
     dplyr::summarise(
       coordinates =
@@ -126,7 +126,8 @@ pmirdp_make_data_overview_2 <- function(x) {
             x |> writeLines(con = tmp_file)
             #res <-
             tmp_file |>
-              bib2df::bib2df() |>
+              bib2df::bib2df() %>%
+              dplyr::filter(! BIBTEXKEY %in% c("Anzenhofer.2014", "Homberg.2014", "Wagner.2013")) %>%
               dplyr::pull(BIBTEXKEY)
             #res <-
             #  paste0("\\cite{", paste(res, collapse = ", "), "}")

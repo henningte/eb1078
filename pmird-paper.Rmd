@@ -198,7 +198,8 @@ keywords:
 #- superPAC
 
 bibliography: '`r targets::tar_read(pmirdp_references_file)`'
-#biblio-style: "naturemag-doi"
+#biblio-style: unsrtnat 
+biblio-style: naturemag-doi
 # bibstyle options spbasic(default), spphys, spmpsci
 csl: nature.csl
 output: 
@@ -207,6 +208,7 @@ output:
     #latex_engine: xelatex
     keep_tex: true
     number_sections: false
+#    citation_package: natbib
   bookdown::word_document2:
     toc: false
     number_sections: false
@@ -219,6 +221,7 @@ header-includes:
   - \usepackage[modulo]{lineno}
   - \linenumbers
   - \usepackage{xr} \externaldocument[si-]{pmird-supporting-info}
+  - \usepackage[numbers]{natbib}
 always_allow_html: true
 ---
 
@@ -353,7 +356,7 @@ A more detailed description of the database schema is given in section [Data Rec
 The collected datasets were included into the 'pmird' database using functions from the 'pmird' package [@Teickner.2025d].<!-- This template was customized for each dataset to match dataset-specific requirements, such as the attributes a dataset comprises, the specific metadata sources (e.g. provided via email, available from published manuscripts, etc.), or the quality and degree of detail of the metadata. The scripts enable the reproducible reorganization, preprocessing, and import into the database.   --> Where MIRS were available as raw data, they were imported including their metadata, using the R packages 'ir' [@Teickner.2022e],  'hyperSpec' [@Beleites.2021], and 'simplerspec' [@Baumann.2020]. The metadata collected for MIRS are the metadata extracted with these packages. If metadata were additionally described in articles and reports using the data (for example the number of scans or measurement devices used), these were added. All spectra included in the database were included as received by the data contributors so that no additional preprocessing was applied to the MIRS, but if no raw spectra were available the MIRS may be already preprocessed to some extent.  
 Other preprocessing steps that were applied are:   
 
-1.  The recalibration of C and N content data and $\delta^{13}$C and $\delta^{15}$N values using the R package 'elco' [@Teickner.2020b] --- in the case where raw data were available. This calibration does not account for so-called blank effects [@Langel.2017] and therefore the isotope values may be biased (depending on the C or N content and the mass of the sample). Correcting blank effects was not possible because no appropriate correction models could be constructed due to lack of sufficient standard measurements.  
+1. The recalibration of C and N content data and $\delta^{13}$C and $\delta^{15}$N values using the R package 'elco' [@Teickner.2020b] --- in the case where raw data were available. This calibration does not account for so-called blank effects [@Langel.2017] and therefore the isotope values may be biased (depending on the C or N content and the mass of the sample). Correcting blank effects was not possible because no appropriate correction models could be constructed due to lack of sufficient standard measurements.  
 
 2. The recalibration of element contents analyzed by wavelength-dispersive X-ray fluorescence --- in case pellet masses used during measurements differed from those used for calibration (also using 'elco'). Measurement errors estimated from these recalibrations are stored alongside the corrected mean values.  
 

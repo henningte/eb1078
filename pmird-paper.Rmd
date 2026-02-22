@@ -72,19 +72,19 @@ authors:
     affil: "18,19"
     email:
   - name: Wolfgang Knierzinger
-    affil: "20,21"
+    affil: "20"
     email:
   - name: Haojie Liu
-    affil: "22"
+    affil: "21"
     email:
   - name: Paul J.H. Mathijssen
-    affil: "1,23"
+    affil: "1,22"
     email:
   - name: Christopher Mollmann
     affil: "1"
     email:
   - name: Wiebke Schuster
-    affil: "24"
+    affil: "23"
     email:
   - name: Lisa Närtker
     affil: "1"
@@ -93,31 +93,31 @@ authors:
     affil: "15"
     email:
   - name: Verónica Pancotto
-    affil: "25,26"
+    affil: "24,25"
     email:
   - name: Nicolas Pelletier
-    affil: "27"
+    affil: "26"
     email:
   - name: Hendrik Reuter
-    affil: "28"
+    affil: "27"
     email:
   - name: Bjorn Robroek
-    affil: "29,30"
+    affil: "28,29"
     email:
   - name: Bo H. Svensson
     affil: "13"
     email:
   - name: Julie Talbot
-    affil: "31"
+    affil: "30"
     email:
   - name: Lauren Thompson
-    affil: "32,33"
+    affil: "31,32"
     email:
   - name: Fred Worrall
-    affil: "34"
+    affil: "33"
     email:
   - name: Zhi-Guo Yu
-    affil: "35"
+    affil: "34"
     email:
   - name: Klaus-Holger Knorr
     affil: "1"
@@ -165,34 +165,32 @@ affiliations:
   - number: "20"
     text: "Federal Agency for Water Management, Institute for Land and Water Management Research, Petzenkirchen, 3252, Austria "
   - number: "21"
-    text: "Orcid "
-  - number: "22"
     text: "Faculty of Agricultural and Environmental Sciences, University of Rostock, Justus-von-Liebig-Weg 6, 18059 Rostock, Germany "
-  - number: "23"
+  - number: "22"
     text: "Climate Resilience, Wageningen Environmental Research, Wageningen University & Research, PO Box 47, NL-6700 AA, Wageningen, the Netherland"
-  - number: "24"
+  - number: "23"
     text: "Stiftung Naturschutz Schleswig-Holstein, Eschenbrook 4, 24113 Molfsee, Germany"
-  - number: "25"
+  - number: "24"
     text: "Centro Austral de Investigaciones Científicas (CADIC), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Ushuaia, Tierra del Fuego, Argentina "
-  - number: "26"
+  - number: "25"
     text: "Instituto de Ciencias Polares, Ambiente y Recursos Naturales (ICPA), Universidad Nacional de Tierra del Fuego (UNTDF), Ushuaia, Tierra del Fuego, Argentina "
-  - number: "27"
+  - number: "26"
     text: "Département de géographie, Université de Montréal, Canada "
-  - number: "28"
+  - number: "27"
     text: "Department of Ecohydrology and Biogeochemistry, Leibniz Institute of Freshwater Ecology and Inland Fisheries, Berlin, Germany "
-  - number: "29"
+  - number: "28"
     text: "Department of Ecology, Radboud Institute for Biological and Environmental Sciences, Faculty of Science, Radboud University Nijmegen, 6525 AJ Nijmegen, The Netherlands"
-  - number: "30"
+  - number: "29"
     text: "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, SO17 1BJ, UK"
-  - number: "31"
+  - number: "30"
     text: "Département de Géographie, Université de Montréal, Campus MIL, 1375 Avenue Thérèse Lavoie-Roux, Montréal, Québec, H2V 0B3, Canada "
-  - number: "32"
+  - number: "31"
     text: "University of Alberta, Department of Renewable Resources, South Academic Building 348D, Edmonton, AB, T6G 2G7 "
-  - number: "33"
+  - number: "32"
     text: "Hatfield Consultants, 1228 Kensington Rd NW Unit 305, Calgary, AB T2N 3P7 "
-  - number: "34"
+  - number: "33"
     text: "Department of Earth Sciences, University of Durham, Durham, DH1 3LE, UK "
-  - number: "35"
+  - number: "34"
     text: "Ecohydrology Research Group, Dept. Hydrology & Water Resources, Nanjing University of Information Science and Technology, Ningliu Road. 219, 210000 Nanjing"
   - number: "*"
     text: "corresponding author(s): Henning Teickner (henning.teickner@uni-muenster.de)"
